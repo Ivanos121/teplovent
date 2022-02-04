@@ -595,7 +595,7 @@ void teplschem::on_radioButton_toggled(bool checked)
                 }
                 if (e.attribute("id") == QString("text299"))
                 {
-                    e.setAttribute("style", "visibility: visible");
+                    e.setAttribute("style", "font-size:30.713px;font-family:Arial;fill:#000000");
                 }
                 if (e.attribute("id") == QString("text225"))
                 {
@@ -836,7 +836,7 @@ void teplschem::on_radioButton_4_toggled(bool checked)
                 }
                 if (e.attribute("id") == QString("text459"))
                 {
-                   e.setAttribute("style", "visibility: visible");
+                   e.setAttribute("style", "font-size:30.713px;font-family:Arial;fill:#000000");
                 }
                 if (e.attribute("id") == QString("text463"))
                 {

@@ -14,6 +14,7 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     teplschem.cpp \
+    trend.cpp \
     vvoddannie.cpp
 
 HEADERS += \
@@ -22,6 +23,7 @@ HEADERS += \
     draw_poper.h \
     mainwindow.h \
     teplschem.h \
+    trend.h \
     vvoddannie.h
 
 FORMS += \
@@ -29,6 +31,7 @@ FORMS += \
     draw_poper.ui \
     mainwindow.ui \
     teplschem.ui \
+    trend.ui \
     vvoddannie.ui
 
 # Default rules for deployment.

@@ -18,7 +18,7 @@
     <item row="0" column="0">
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>1</number>
+       <number>3</number>
       </property>
       <widget class="QWidget" name="tab_2">
        <attribute name="title">
@@ -58,12 +58,17 @@
         <item row="0" column="0">
          <widget class="QTabWidget" name="tabWidget_2">
           <property name="currentIndex">
-           <number>2</number>
+           <number>0</number>
           </property>
           <widget class="QWidget" name="tab_5">
            <attribute name="title">
             <string>Тренды температур</string>
            </attribute>
+           <layout class="QGridLayout" name="gridLayout_8">
+            <item row="0" column="0">
+             <widget class="trend" name="widget_6" native="true"/>
+            </item>
+           </layout>
           </widget>
           <widget class="QWidget" name="tab_6">
            <attribute name="title">
@@ -165,6 +170,12 @@
    <class>draw_line</class>
    <extends>QWidget</extends>
    <header>draw_line.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>trend</class>
+   <extends>QWidget</extends>
+   <header location="global">trend.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
