@@ -78,282 +78,6 @@ void teplschem::on_checkBox_clicked()
 
 }
 
-void teplschem::on_checkBox_2_clicked()
-{
-    if (ui->checkBox_2->isChecked())
-    {
-        QDomElement root = doc.firstChildElement();
-
-        QDomNodeList elemText = root.elementsByTagName("text");
-        for(int i = 0; i < elemText.count(); i++)
-        {
-            QDomNode elm = elemText.at(i);
-            if(elm.isElement())
-            {
-                QDomElement e = elm.toElement();
-                if (e.attribute("id") == QString("text475"))
-                {
-                   e.setAttribute("style", "visibility: hidden");
-                }
-                if (e.attribute("id") == QString("text479"))
-                {
-                   e.setAttribute("style", "visibility: hidden");
-                }
-
-                if (e.attribute("id") == QString("text467"))
-                {
-                    e.setAttribute("style", "visibility: hidden");
-                }
-                if (e.attribute("id") == QString("text471"))
-                {
-                    e.setAttribute("style", "visibility: hidden");
-                }
-
-                if (e.attribute("id") == QString("text451"))
-                {
-                    e.setAttribute("style", "visibility: hidden");
-                }
-                if (e.attribute("id") == QString("text455"))
-                {
-                    e.setAttribute("style", "visibility: hidden");
-                }
-            }
-        }
-
-        elemText = root.elementsByTagName("path");
-        for(int i = 0; i < elemText.count(); i++)
-        {
-            QDomNode elm = elemText.at(i);
-            if(elm.isElement())
-            {
-                QDomElement e = elm.toElement();
-                if (e.attribute("id") == QString("path167"))
-                {
-                    QString oldStyle = e.attribute("style");
-                    oldStyle += ";visibility: hidden";
-                    e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path159"))
-                {
-                    QString oldStyle = e.attribute("style");
-                    oldStyle += ";visibility: hidden";
-                    e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path165"))
-                {
-                    QString oldStyle = e.attribute("style");
-                    oldStyle += ";visibility: hidden";
-                    e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path161"))
-                {
-                    QString oldStyle = e.attribute("style");
-                    oldStyle += ";visibility: hidden";
-                    e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path163"))
-                {
-                    QString oldStyle = e.attribute("style");
-                    oldStyle += ";visibility: hidden";
-                    e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path157"))
-                {
-                    QString oldStyle = e.attribute("style");
-                    oldStyle += ";visibility: hidden";
-                    e.setAttribute("style", oldStyle);
-                }
-
-                if (e.attribute("id") == QString("path149"))
-                {
-                    QString oldStyle = e.attribute("style");
-                    oldStyle += ";visibility: hidden";
-                    e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path153"))
-                {
-                    QString oldStyle = e.attribute("style");
-                    oldStyle += ";visibility: hidden";
-                    e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path155"))
-                {
-                    QString oldStyle = e.attribute("style");
-                    oldStyle += ";visibility: hidden";
-                    e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path151"))
-                {
-                    QString oldStyle = e.attribute("style");
-                    oldStyle += ";visibility: hidden";
-                    e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path137"))
-                {
-                    QString oldStyle = e.attribute("style");
-                    oldStyle += ";visibility: hidden";
-                    e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path135"))
-                {
-                    QString oldStyle = e.attribute("style");
-                    oldStyle += ";visibility: hidden";
-                    e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path133"))
-                {
-                    QString oldStyle = e.attribute("style");
-                    oldStyle += ";visibility: hidden";
-                    e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path131"))
-                {
-                    QString oldStyle = e.attribute("style");
-                    oldStyle += ";visibility: hidden";
-                    e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path129"))
-                {
-                    QString oldStyle = e.attribute("style");
-                    oldStyle += ";visibility: hidden";
-                    e.setAttribute("style", oldStyle);
-                }
-            }
-        }
-
-        ui->svgWidget->load(doc.toByteArray());
-        QSvgRenderer *renderer = ui->svgWidget->renderer();
-        renderer->setAspectRatioMode(Qt::KeepAspectRatio);
-    }
-
-
-
-    else
-    {
-        QDomElement root = doc.firstChildElement();
-
-        QDomNodeList elemText = root.elementsByTagName("text");
-        for(int i = 0; i < elemText.count(); i++)
-        {
-            QDomNode elm = elemText.at(i);
-            if(elm.isElement())
-            {
-                QDomElement e = elm.toElement();
-                if (e.attribute("id") == QString("text475"))
-                {
-                   e.setAttribute("style", "visibility: visible");
-                }
-                if (e.attribute("id") == QString("text479"))
-                {
-                   e.setAttribute("style", "visibility: visible");
-                }
-                if (e.attribute("id") == QString("text467"))
-                {
-                   e.setAttribute("style", "visibility: visible");
-                }
-                if (e.attribute("id") == QString("text471"))
-                {
-                   e.setAttribute("style", "visibility: visible");
-                }
-                if (e.attribute("id") == QString("text451"))
-                {
-                   e.setAttribute("style", "visibility: visible");
-                }
-                if (e.attribute("id") == QString("text455"))
-                {
-                   e.setAttribute("style", "visibility: visible");
-                }
-            }
-        }
-
-        QDomNodeList elemText2 = root.elementsByTagName("path");
-        for(int i = 0; i < elemText2.count(); i++)
-        {
-            QDomNode elm = elemText2.at(i);
-            if(elm.isElement())
-            {
-                QDomElement e = elm.toElement();
-                if (e.attribute("id") == QString("path167"))
-                {
-                   QString oldStyle = e.attribute("style");
-                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
-                   e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path159"))
-                {
-                   QString oldStyle = e.attribute("style");
-                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
-                   e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path165"))
-                {
-                   QString oldStyle = e.attribute("style");
-                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
-                   e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path161"))
-                {
-                   QString oldStyle = e.attribute("style");
-                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
-                   e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path163"))
-                {
-                   QString oldStyle = e.attribute("style");
-                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
-                   e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path157"))
-                {
-                   QString oldStyle = e.attribute("style");
-                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
-                   e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path149"))
-                {
-                   QString oldStyle = e.attribute("style");
-                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
-                   e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path153"))
-                {
-                   QString oldStyle = e.attribute("style");
-                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
-                   e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path155"))
-                {
-                   QString oldStyle = e.attribute("style");
-                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
-                   e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path151"))
-                {
-                   QString oldStyle = e.attribute("style");
-                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
-                   e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path131"))
-                {
-                   QString oldStyle = e.attribute("style");
-                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
-                   e.setAttribute("style", oldStyle);
-                }
-                if (e.attribute("id") == QString("path129"))
-                {
-                   QString oldStyle = e.attribute("style");
-                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
-                   e.setAttribute("style", oldStyle);
-                }
-            }
-        }
-
-        ui->svgWidget->load(doc.toByteArray());
-        QSvgRenderer *renderer = ui->svgWidget->renderer();
-        renderer->setAspectRatioMode(Qt::KeepAspectRatio);
-    }
-}
-
 void teplschem::on_radioButton_5_toggled(bool checked)
 {
     if(checked)
@@ -706,6 +430,62 @@ void teplschem::on_radioButton_toggled(bool checked)
                 {
                    e.setAttribute("style", "visibility: hidden");
                 }
+                if (e.attribute("id") == QString("text435"))
+                {
+                   e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text245"))
+                {
+                   e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text499"))
+                {
+                   e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text233"))
+                {
+                   e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text267"))
+                {
+                   e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text213"))
+                {
+                   e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text285"))
+                {
+                   e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text217"))
+                {
+                   e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text293"))
+                {
+                   e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text221"))
+                {
+                   e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text307"))
+                {
+                   e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text229"))
+                {
+                   e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text299"))
+                {
+                   e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text225"))
+                {
+                   e.setAttribute("style", "visibility: hidden");
+                }
 
             }
         }
@@ -764,12 +544,428 @@ void teplschem::on_radioButton_toggled(bool checked)
                 {
                     e.setAttribute("style", "visibility: visible");
                 }
+
+                if (e.attribute("id") == QString("text435"))
+                {
+                    e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text245"))
+                {
+                    e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text499"))
+                {
+                    e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text233"))
+                {
+                    e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text267"))
+                {
+                    e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text213"))
+                {
+                    e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text285"))
+                {
+                    e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text217"))
+                {
+                    e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text293"))
+                {
+                    e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text221"))
+                {
+                    e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text307"))
+                {
+                    e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text229"))
+                {
+                    e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text299"))
+                {
+                    e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text225"))
+                {
+                    e.setAttribute("style", "visibility: visible");
+                }
             }
         }
         ui->svgWidget->load(doc.toByteArray());
         QSvgRenderer *renderer = ui->svgWidget->renderer();
         renderer->setAspectRatioMode(Qt::KeepAspectRatio);
     }
+
+}
+
+
+void teplschem::on_radioButton_4_toggled(bool checked)
+{
+    if (checked)
+    {
+        QDomElement root = doc.firstChildElement();
+
+        QDomNodeList elemText = root.elementsByTagName("text");
+        for(int i = 0; i < elemText.count(); i++)
+        {
+            QDomNode elm = elemText.at(i);
+            if(elm.isElement())
+            {
+                QDomElement e = elm.toElement();
+                if (e.attribute("id") == QString("text475"))
+                {
+                   e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text479"))
+                {
+                   e.setAttribute("style", "visibility: hidden");
+                }
+
+                if (e.attribute("id") == QString("text467"))
+                {
+                    e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text471"))
+                {
+                    e.setAttribute("style", "visibility: hidden");
+                }
+
+                if (e.attribute("id") == QString("text451"))
+                {
+                    e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text455"))
+                {
+                    e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text459"))
+                {
+                    e.setAttribute("style", "visibility: hidden");
+                }
+                if (e.attribute("id") == QString("text463"))
+                {
+                    e.setAttribute("style", "visibility: hidden");
+                }
+            }
+        }
+
+        elemText = root.elementsByTagName("path");
+        for(int i = 0; i < elemText.count(); i++)
+        {
+            QDomNode elm = elemText.at(i);
+            if(elm.isElement())
+            {
+                QDomElement e = elm.toElement();
+                if (e.attribute("id") == QString("path167"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path159"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path165"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path161"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path163"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path157"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+
+                if (e.attribute("id") == QString("path149"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path153"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path155"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path151"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path137"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path135"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path133"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path131"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path129"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path147"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path139"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path141"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path143"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path145"))
+                {
+                    QString oldStyle = e.attribute("style");
+                    oldStyle += ";visibility: hidden";
+                    e.setAttribute("style", oldStyle);
+                }
+            }
+        }
+
+        ui->svgWidget->load(doc.toByteArray());
+        QSvgRenderer *renderer = ui->svgWidget->renderer();
+        renderer->setAspectRatioMode(Qt::KeepAspectRatio);
+    }
+
+
+
+    else
+    {
+        QDomElement root = doc.firstChildElement();
+
+        QDomNodeList elemText = root.elementsByTagName("text");
+        for(int i = 0; i < elemText.count(); i++)
+        {
+            QDomNode elm = elemText.at(i);
+            if(elm.isElement())
+            {
+                QDomElement e = elm.toElement();
+                if (e.attribute("id") == QString("text475"))
+                {
+                   e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text479"))
+                {
+                   e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text467"))
+                {
+                   e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text471"))
+                {
+                   e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text451"))
+                {
+                   e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text455"))
+                {
+                   e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text459"))
+                {
+                   e.setAttribute("style", "visibility: visible");
+                }
+                if (e.attribute("id") == QString("text463"))
+                {
+                   e.setAttribute("style", "visibility: visible");
+                }
+            }
+        }
+
+        QDomNodeList elemText2 = root.elementsByTagName("path");
+        for(int i = 0; i < elemText2.count(); i++)
+        {
+            QDomNode elm = elemText2.at(i);
+            if(elm.isElement())
+            {
+                QDomElement e = elm.toElement();
+                if (e.attribute("id") == QString("path167"))
+                {
+                   QString oldStyle = e.attribute("style");
+                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
+                   e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path159"))
+                {
+                   QString oldStyle = e.attribute("style");
+                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
+                   e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path165"))
+                {
+                   QString oldStyle = e.attribute("style");
+                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
+                   e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path161"))
+                {
+                   QString oldStyle = e.attribute("style");
+                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
+                   e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path163"))
+                {
+                   QString oldStyle = e.attribute("style");
+                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
+                   e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path157"))
+                {
+                   QString oldStyle = e.attribute("style");
+                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
+                   e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path149"))
+                {
+                   QString oldStyle = e.attribute("style");
+                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
+                   e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path153"))
+                {
+                   QString oldStyle = e.attribute("style");
+                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
+                   e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path155"))
+                {
+                   QString oldStyle = e.attribute("style");
+                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
+                   e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path151"))
+                {
+                   QString oldStyle = e.attribute("style");
+                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
+                   e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path131"))
+                {
+                   QString oldStyle = e.attribute("style");
+                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
+                   e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path129"))
+                {
+                   QString oldStyle = e.attribute("style");
+                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
+                   e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path147"))
+                {
+                   QString oldStyle = e.attribute("style");
+                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
+                   e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path139"))
+                {
+                   QString oldStyle = e.attribute("style");
+                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
+                   e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path141"))
+                {
+                   QString oldStyle = e.attribute("style");
+                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
+                   e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path143"))
+                {
+                   QString oldStyle = e.attribute("style");
+                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
+                   e.setAttribute("style", oldStyle);
+                }
+                if (e.attribute("id") == QString("path145"))
+                {
+                   QString oldStyle = e.attribute("style");
+                   oldStyle = oldStyle.leftRef(oldStyle.lastIndexOf(";visibility: hidden")).toString();
+                   e.setAttribute("style", oldStyle);
+                }
+            }
+        }
+
+        ui->svgWidget->load(doc.toByteArray());
+        QSvgRenderer *renderer = ui->svgWidget->renderer();
+        renderer->setAspectRatioMode(Qt::KeepAspectRatio);
+    }
+}
+
+
+void teplschem::on_radioButton_2_toggled(bool checked)
+{
 
 }
 

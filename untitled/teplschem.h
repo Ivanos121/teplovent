@@ -23,12 +23,16 @@ public:
 
 public slots:
     void on_checkBox_clicked();
-    void on_checkBox_2_clicked();
+
 
 private slots:
     void on_radioButton_5_toggled(bool checked);
 
     void on_radioButton_toggled(bool checked);
+
+    void on_radioButton_4_toggled(bool checked);
+
+    void on_radioButton_2_toggled(bool checked);
 
 private:
     Ui::teplschem *ui;
