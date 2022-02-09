@@ -1,0 +1,2387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 530.30309 629.808"
+   width="530.3031"
+   height="629.80798"
+   version="1.1"
+   id="svg5219"
+   sodipodi:docname="bbb.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5221"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.74920737"
+     inkscape:cx="-25.360135"
+     inkscape:cy="278.29411"
+     inkscape:window-width="1920"
+     inkscape:window-height="1030"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g5217"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <desc
+     id="desc4542">bbb.dxf - scale = 1.0, origin = (0.0, 0.0), method = file</desc>
+  <defs
+     id="defs4557">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path4544" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path4547" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path4549" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path4551" />
+    </pattern>
+    <symbol
+       id="*Model_Space" />
+    <symbol
+       id="*Paper_Space" />
+    <symbol
+       id="*Paper_Space0" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Layer0View0"
+     id="g4571"
+     transform="translate(-101.57533,-295.6902)" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="G"
+     id="g5069"
+     transform="translate(-101.57533,-295.6902)" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Layer3"
+     id="g5115"
+     transform="translate(-101.57533,-295.6902)" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g5153"
+     transform="translate(-101.57533,-295.6902)">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+       d="M 363.93343,924.9982 V 296.1902"
+       id="path5145"
+       inkscape:export-filename="/home/elf/Видео/path4559.png"
+       inkscape:export-xdpi="228.52525"
+       inkscape:export-ydpi="228.52525" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="OSI"
+     id="g5203"
+     transform="translate(-101.57533,-295.6902)" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="R"
+     id="g5217"
+     transform="translate(-101.57533,-295.6902)">
+    <g
+       id="g8589">
+      <path
+         d="m 478.57352,654.96337 3.69968,-9.55386 6.11166,-7.34887 5.31504,-4.08688 12.62926,-6.37411 6.55959,-1.16962 8.83973,1.56384 6.96011,1.93768 9.41567,1.7577 12.179,2.08982 1.19415,0.19818 2.16063,-0.22711 6.71291,0.23123 4.86292,3.89544 4.54437,6.84596 5.47507,10.2406"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4559"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 523.76305,505.91786 -8.91597,4.34554 -8.13241,5.69765 -7.39337,5.35366 -8.64962,7.00598 -0.6602,0.55661 -1.05893,2.15419 -3.14299,6.96252 -4.14931,13.24707 0.2993,13.01259 4.61939,15.82764 6.07725,6.88721 7.39774,1.58241 12.46283,-1.09595 7.06379,-0.49721 h 27.98453 24.05562"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4561"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 443.94949,455.26609 -2.37003,-1.90951 -2.58007,-1.17725"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4563"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 496.9103,485.31184 2.83869,1.09775 2.30957,1.64579"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4565"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 231.29602,486.31776 -2.82038,1.23966 -2.3031,1.6548"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4567"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 283.79681,455.47523 2.25479,-1.99426 2.57547,-1.18734"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4569"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 170.09046,755.8632 8.51473,14.898"
+         id="path4573"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="M 540.40242,526.74307 A 229.94781,229.94781 0 0 0 498.6331,482.32787"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4575"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 550.26538,540.77092 a 218.53516,218.53516 0 0 0 -9.5332,-14.26743"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4577"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 186.02065,781.85925 a 222.43614,222.43614 0 0 0 43.38822,45.36438"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4579"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 347.12343,542.7372 v 15.558"
+         id="path4581"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 347.12312,558.29545 a 16.810397,16.810397 0 0 0 16.8104,16.8104"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4583"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 355.52843,558.2952 v 4.203"
+         id="path4585"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 355.52843,562.4982 8.405,4.202"
+         id="path4587"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 355.52843,558.2952 v -4.202"
+         id="path4589"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 355.52843,554.0932 8.405,-4.203"
+         id="path4591"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 372.33843,558.2952 v 4.203"
+         id="path4593"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 372.33843,562.4982 -8.405,4.202"
+         id="path4595"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 372.33843,554.0932 -8.405,-4.203"
+         id="path4597"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 372.33843,558.2952 v -4.202"
+         id="path4599"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 372.33843,554.0932 -8.405,-4.203"
+         id="path4601"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 380.74343,542.7372 v 15.558"
+         id="path4603"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 363.93352,575.10585 a 16.810397,16.810397 0 0 0 16.8104,-16.8104"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4605"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 288.62889,717.84336 a 16.810397,16.810397 0 0 0 6.15303,-22.96343"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4607"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 275.15503,725.6222 13.4734,-7.779"
+         id="path4609"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 284.42643,710.5642 -3.64,2.101"
+         id="path4611"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 288.06543,708.4632 -0.563,-9.381"
+         id="path4613"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 284.42643,710.5642 3.639,-2.101"
+         id="path4615"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 280.78643,712.6652 -7.8419,-5.177"
+         id="path4617"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 272.38153,698.1072 0.563,9.381"
+         id="path4619"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 276.02113,696.0062 3.6393,-2.101"
+         id="path4621"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 276.02113,696.0062 -3.6396,2.101"
+         id="path4623"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 279.66043,693.9052 7.842,5.177"
+         id="path4625"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 294.78192,694.87993 a 16.810397,16.810397 0 0 0 -22.96343,-6.15304"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4627"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 258.34463,696.5062 13.4739,-7.779"
+         id="path4629"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 485.32643,443.4542 14.684,8.185"
+         id="path4631"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 499.16743,470.4142 0.843,-18.775"
+         id="path4633"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 499.16743,470.4142 -0.534,11.914"
+         id="path4635"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 463.59998,482.32787 a 41.087577,41.087577 0 0 0 33.31032,2.98397"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4637"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 443.94949,455.26609 a 41.087577,41.087577 0 0 0 19.65049,27.06178"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4639"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 455.62443,445.7112 -9.952,6.571"
+         id="path4641"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 455.62443,445.7112 15.684,-10.355"
+         id="path4643"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 485.86643,443.7612 -14.558,-8.405"
+         id="path4645"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 363.93343,886.8882 h -87.6815"
+         id="path4647"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 363.93343,891.0882 h -30.56"
+         id="path4649"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 451.61516,886.88798 a 247.95336,247.95336 0 0 0 23.34458,-10.22563"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4651"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 452.3797,891.09058 a 252.15596,252.15596 0 0 0 26.65027,-11.77975"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4653"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 241.91723,883.8182 v 15.68"
+         id="path4655"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 221.02923,865.8782 h -21.138"
+         id="path4657"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 157.86523,865.8782 h 42.026"
+         id="path4659"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 157.86523,865.8782 v 33.62"
+         id="path4661"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 157.86523,899.4982 h 84.052"
+         id="path4663"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 256.41893,874.3782 -1.9073,1.24"
+         id="path4665"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 227.82663,857.8982 -0.1306,2.54"
+         id="path4667"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 272.17213,864.1282 -15.7532,10.25"
+         id="path4669"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 272.17213,864.1282 9.9953,-6.51"
+         id="path4671"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 228.79463,839.1282 -0.968,18.77"
+         id="path4673"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 228.79463,839.1282 0.6142,-11.9"
+         id="path4675"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 485.94943,883.8182 v 15.68"
+         id="path4677"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 485.94943,899.4982 h 16.811"
+         id="path4679"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 502.76043,899.4982 v -8.41"
+         id="path4681"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 485.94943,891.0882 h 42.026"
+         id="path4683"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 506.83743,865.8782 h 21.138"
+         id="path4685"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 570.00143,865.8782 h -42.026"
+         id="path4687"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 570.00143,891.0882 v 8.41"
+         id="path4689"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 570.00143,865.8782 v 25.21"
+         id="path4691"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 570.00143,899.4982 h -16.81"
+         id="path4693"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 553.19143,899.4982 v -8.41"
+         id="path4695"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 570.00143,891.0882 h -42.026"
+         id="path4697"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 471.44843,874.3782 14.501,9.44"
+         id="path4699"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 455.69443,864.1282 15.754,10.25"
+         id="path4701"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 455.69443,864.1282 -9.957,-6.53"
+         id="path4703"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 452.37943,891.0882 h -165.719"
+         id="path4705"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 363.93343,886.8882 h 87.682"
+         id="path4707"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 452.3797,891.09058 a 252.15596,252.15596 0 0 0 26.65027,-11.77975"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4709"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 451.61516,886.88798 a 247.95336,247.95336 0 0 0 23.34458,-10.22563"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4711"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 252.90731,876.66235 a 247.95336,247.95336 0 0 0 23.34457,10.22563"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4713"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 223.53407,450.58091 a 247.96873,247.96873 0 0 0 3.67331,411.22405"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4715"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="M 503.48086,864.97706 A 252.15596,252.15596 0 0 0 501.7001,443.76101"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4717"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="M 500.65968,861.805 A 247.95336,247.95336 0 0 0 503.6361,450.10392"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4719"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 570.00143,865.8782 h -4.202"
+         id="path4721"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 565.79943,865.8782 v 25.21"
+         id="path4723"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 565.79943,878.4782 v -4.2"
+         id="path4725"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 549.16443,874.2782 v 4.2"
+         id="path4727"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 549.16443,874.2782 -4.203,4.2"
+         id="path4729"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 570.00143,867.8782 h 8.406"
+         id="path4731"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 578.40743,867.8782 v 10.6"
+         id="path4733"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 578.40743,873.1782 h -8.406"
+         id="path4735"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 549.16443,882.6882 v -4.21"
+         id="path4737"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 549.16443,882.6882 -4.203,-4.21"
+         id="path4739"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 565.79943,882.6882 h -16.778"
+         id="path4741"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 578.40743,883.7882 h -8.406"
+         id="path4743"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 570.00143,889.0882 h 8.406"
+         id="path4745"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 578.40743,889.0882 v -10.61"
+         id="path4747"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="M 363.93352,789.43841 A 134.48318,134.48318 0 0 0 496.46434,632.12308"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4749"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="M 363.93352,785.23581 A 130.28058,130.28058 0 0 0 492.63722,634.74663"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4751"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 363.93352,696.98123 a 42.025993,42.025993 0 0 0 42.02599,-42.026"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4753"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="M 477.4037,654.95523 A 113.47018,113.47018 0 1 0 363.93352,768.42541"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4755"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 540.73243,526.5032 -34,24.703"
+         id="path4757"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 506.73243,551.2062 4.076,5.61"
+         id="path4759"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 506.73243,551.2062 -1.984,9.66"
+         id="path4761"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 550.26543,540.7712 -35.833,21.958"
+         id="path4763"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 514.43243,562.7292 -9.684,-1.863"
+         id="path4765"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 514.43243,562.7292 -3.624,-5.913"
+         id="path4767"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="M 549.38258,586.95777 A 197.52217,197.52217 0 0 0 532.34886,551.75018"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4769"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="M 523.73231,538.85461 A 197.52217,197.52217 0 0 0 505.23709,516.93963"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4771"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 564.3434,567.81454 a 218.53516,218.53516 0 0 0 -7.45478,-15.45535"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4773"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 325.80243,891.0882 h -39.142"
+         id="path4775"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 397.55432,654.95523 a 33.620795,33.620795 0 1 0 -33.6208,33.6208"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4777"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 400.81118,646.55003 a 37.823394,37.823394 0 1 0 -36.87766,46.2286"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4779"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="M 393.57819,654.95523 A 29.644667,29.644667 0 1 0 363.93352,684.5999"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4781"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 397.55443,646.5502 h 6.507"
+         id="path4783"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 404.06143,646.5502 v 8.405"
+         id="path4785"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 397.55443,646.5502 h -1.068"
+         id="path4787"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 428.82466,863.65086 a 228.11954,228.11954 0 0 0 16.91245,-6.04866"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4789"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 527.97543,891.0882 h -13.264"
+         id="path4791"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 565.79943,874.2782 h -16.635"
+         id="path4793"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 420.36543,890.3682 0.054,0.12"
+         id="path4795"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 228.56833,470.9272 -1.1261,-18.761"
+         id="path4797"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 228.56833,470.9272 0.7145,11.904"
+         id="path4799"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 271.73373,445.5692 -15.839,-10.118"
+         id="path4801"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 271.73373,445.5692 10.0497,6.419"
+         id="path4803"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 264.55745,482.83083 a 41.087577,41.087577 0 0 0 19.23936,-27.3556"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4805"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 231.29602,486.31776 a 41.087577,41.087577 0 0 0 33.26143,-3.48693"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4807"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 242.00043,443.7612 -14.5582,8.405"
+         id="path4809"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 241.46523,444.0752 14.4295,-8.624"
+         id="path4811"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 157.61313,727.1932 6.3586,15.937"
+         id="path4813"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 163.97169,743.13049 a 218.53516,218.53516 0 0 0 5.79874,12.02205"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4815"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 178.60519,770.76123 a 218.53516,218.53516 0 0 0 7.41546,11.09802"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4817"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 439.26445,695.97045 a 2.1944241,2.1944241 0 1 0 -2.19442,3.80085"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4819"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 474.05843,713.8062 -34.794,-17.836"
+         id="path4821"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 469.91343,720.9862 -32.843,-21.215"
+         id="path4823"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 469.56634,720.76159 a 4.145023,4.145023 0 0 0 5.6658,-0.78742"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4825"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 475.84143,718.9182 1.095,0.632"
+         id="path4827"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 476.93643,719.5502 -0.609,1.056"
+         id="path4829"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 476.32743,720.6062 -1.095,-0.632"
+         id="path4831"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 475.8417,718.91837 a 4.145023,4.145023 0 0 0 -2.15097,-5.30043"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4833"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 514.29243,741.7502 4.571,-7.919"
+         id="path4835"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 514.29243,741.7502 -4.572,7.918"
+         id="path4837"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 479.00243,724.8942 2.111,1.219"
+         id="path4839"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 482.05043,719.6152 2.111,1.219"
+         id="path4841"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 509.72043,749.6682 -28.465,-21.361"
+         id="path4843"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 518.86343,733.8312 -32.732,-13.971"
+         id="path4845"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 486.13143,719.8602 -1.97,0.974"
+         id="path4847"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 481.25543,728.3072 -0.142,-2.194"
+         id="path4849"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 185.23704,779.9412 -19.73001,9.899"
+         id="path4851"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 177.72906,768.7042 -16.33803,15.262"
+         id="path4853"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 161.39099,783.96658 a 4.255041,4.255041 0 0 0 -0.93912,4.93452"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4855"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 160.45187,788.9011 a 4.255041,4.255041 0 0 0 5.05519,0.93929"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4857"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 163.91313,742.8122 -18.3031,12.84"
+         id="path4859"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 145.61003,755.65221 a 4.255041,4.255041 0 0 0 -1.61673,4.7558"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4861"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 169.78425,754.9842 -20.91572,7.058"
+         id="path4863"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 143.9933,760.40801 a 4.255041,4.255041 0 0 0 4.87527,1.63369"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4865"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 156.62733,724.1052 -20.4709,3.848"
+         id="path4867"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 131.55602,725.65677 a 4.255041,4.255041 0 0 0 4.60046,2.2963"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4869"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 152.83083,711.4642 -19.0119,9.708"
+         id="path4871"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 133.8189,721.17225 a 4.255041,4.255041 0 0 0 -2.26288,4.48452"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4873"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 125.45485,688.11261 a 4.255041,4.255041 0 0 0 -2.86498,4.12594"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4875"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 148.87663,694.1342 -22.0507,1.019"
+         id="path4877"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 122.58987,692.23855 a 4.255041,4.255041 0 0 0 4.2361,2.91422"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4879"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 146.58803,680.8152 -21.1332,7.297"
+         id="path4881"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 146.05013,661.9512 -21.9778,-2.06"
+         id="path4883"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 120.28306,656.41545 a 4.255041,4.255041 0 0 0 3.7893,3.4754"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4885"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 123.69438,652.72839 a 4.255041,4.255041 0 0 0 -3.41132,3.68706"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4887"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 145.63743,648.4432 -21.9431,4.285"
+         id="path4889"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 121.4737,621.83168 a 4.255041,4.255041 0 0 0 3.26874,3.96895"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4891"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 146.21963,630.8992 -21.4772,-5.099"
+         id="path4893"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 125.36496,618.65527 a 4.255041,4.255041 0 0 0 -3.89126,3.17641"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4895"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 147.69083,617.4662 -22.3259,1.189"
+         id="path4897"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 574.93043,538.17365 a 4.255041,4.255041 0 0 0 1.28104,-4.857"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4899"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 576.21147,533.31665 a 4.255041,4.255041 0 0 0 -4.97735,-1.28963"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4901"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 550.86143,540.5262 20.373,-8.499"
+         id="path4903"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 557.56743,552.2592 17.363,-14.086"
+         id="path4905"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 564.65243,567.1982 21.357,-5.581"
+         id="path4907"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 590.75895,563.58697 a 4.255041,4.255041 0 0 0 -4.74944,-1.9698"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4909"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 588.81441,568.21841 a 4.255041,4.255041 0 0 0 1.94454,-4.63144"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4911"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 569.66043,579.7502 19.154,-11.532"
+         id="path4913"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 574.56743,597.0322 21.926,-2.555"
+         id="path4915"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 600.92238,597.08907 a 4.255041,4.255041 0 0 0 -4.42907,-2.61162"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4917"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 577.77943,610.1582 20.573,-8.753"
+         id="path4919"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 598.35219,601.40481 a 4.255041,4.255041 0 0 0 2.57019,-4.31574"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4921"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 579.21143,625.3242 22.068,0.523"
+         id="path4923"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 605.30157,629.04935 a 4.255041,4.255041 0 0 0 -4.0225,-3.20261"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4925"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 602.15576,632.96539 a 4.255041,4.255041 0 0 0 3.14581,-3.91604"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4927"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 580.56543,638.7702 21.59,-5.805"
+         id="path4929"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 226.16695,443.76101 a 252.15596,252.15596 0 0 0 -1.78077,421.21605"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4931"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 250.29043,837.2282 -12.1912,7.04"
+         id="path4933"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 238.09923,844.2682 v 14.08"
+         id="path4935"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 238.09923,858.3482 12.1912,7.04"
+         id="path4937"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 250.29043,865.3882 12.1913,-7.04"
+         id="path4939"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 262.48173,858.3482 v -14.08"
+         id="path4941"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 262.48173,844.2682 -12.1913,-7.04"
+         id="path4943"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 227.61163,862.0682 -5e-4,0.01"
+         id="path4945"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 248.83703,879.3082 h -0.001"
+         id="path4947"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="M 501.7001,443.76101 A 279.10976,279.10976 0 0 0 480.52735,431.38954"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4949"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="M 503.6361,450.10392 A 262.62984,262.62984 0 0 0 480.51916,436.15844"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4951"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 247.14544,431.47608 a 279.10976,279.10976 0 0 0 -20.98448,12.2722"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4953"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 247.14544,436.2335 a 243.40979,243.40979 0 0 0 -23.61137,14.34741"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4955"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 248.83577,879.31168 a 279.10976,279.10976 0 0 0 0.86922,0.44834"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4957"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 248.83708,879.31083 a 252.15596,252.15596 0 0 0 16.15288,7.57715"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4959"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 227.69603,860.4382 9.6062,5.44"
+         id="path4961"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 237.30223,865.8782 17.2094,9.74"
+         id="path4963"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 252.92953,876.6482 -0.0437,0.03"
+         id="path4965"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 264.98993,886.8882 9.3156,4.2"
+         id="path4967"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 286.66043,891.0882 h -12.3549"
+         id="path4969"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 250.29043,837.2282 -12.1912,7.04"
+         id="path4971"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 238.09923,844.2682 v 14.08"
+         id="path4973"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 238.09923,858.3482 12.1912,7.04"
+         id="path4975"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 250.29043,865.3882 12.1913,-7.04"
+         id="path4977"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 262.48173,858.3482 v -14.08"
+         id="path4979"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 262.48173,844.2682 -12.1913,-7.04"
+         id="path4981"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 170.09046,554.0472 8.51473,-14.898"
+         id="path4983"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 157.61313,582.7182 6.3586,-15.938"
+         id="path4985"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 169.77043,554.75793 a 218.53516,218.53516 0 0 0 -5.79874,12.02205"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4987"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 186.02065,528.05122 a 218.53516,218.53516 0 0 0 -7.41546,11.09802"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4989"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 185.23704,529.9692 -19.73001,-9.899"
+         id="path4991"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 177.72906,541.2062 -16.33803,-15.262"
+         id="path4993"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 160.45187,521.00936 a 4.255041,4.255041 0 0 0 0.93912,4.93453"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4995"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 165.50706,520.07007 a 4.255041,4.255041 0 0 0 -5.05519,0.93929"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path4997"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 163.91313,567.0982 -18.3031,-12.84"
+         id="path4999"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 143.9933,549.50245 a 4.255041,4.255041 0 0 0 1.61673,4.75581"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5001"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 169.78425,554.9262 -20.91572,-7.057"
+         id="path5003"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 148.86857,547.86876 a 4.255041,4.255041 0 0 0 -4.87527,1.63369"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5005"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 156.62733,585.8052 -20.4709,-3.848"
+         id="path5007"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 136.15648,581.95739 a 4.255041,4.255041 0 0 0 -4.60046,2.2963"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5009"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 152.83083,598.4462 -19.0119,-9.708"
+         id="path5011"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 131.55602,584.25369 a 4.255041,4.255041 0 0 0 2.26288,4.48452"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5013"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 122.58987,617.67191 a 4.255041,4.255041 0 0 0 2.86498,4.12594"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5015"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 148.87663,615.7762 -22.0507,-1.018"
+         id="path5017"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 126.82597,614.7577 a 4.255041,4.255041 0 0 0 -4.2361,2.91421"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5019"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 146.58803,629.0952 -21.1332,-7.297"
+         id="path5021"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 581.81643,661.9512 21.978,-2.06"
+         id="path5023"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 603.79469,659.89085 a 4.255041,4.255041 0 0 0 3.78929,-3.4754"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5025"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 607.58398,656.41545 a 4.255041,4.255041 0 0 0 -3.41131,-3.68706"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5027"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 582.22943,648.4432 21.943,4.285"
+         id="path5029"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 556.88862,757.55128 a 218.53516,218.53516 0 0 0 7.45478,-15.45535"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5031"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 576.21147,776.59382 a 4.255041,4.255041 0 0 0 -1.28104,-4.857"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5033"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 571.23412,777.88345 a 4.255041,4.255041 0 0 0 4.97735,-1.28963"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5035"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 550.86143,769.3842 20.373,8.499"
+         id="path5037"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 557.56743,757.6512 17.363,14.086"
+         id="path5039"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 564.65243,742.7122 21.357,5.581"
+         id="path5041"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 586.00951,748.29329 a 4.255041,4.255041 0 0 0 4.74944,-1.96979"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5043"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 590.75895,746.3235 a 4.255041,4.255041 0 0 0 -1.94454,-4.63145"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5045"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 569.66043,730.1602 19.154,11.532"
+         id="path5047"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 574.56743,712.8792 21.926,2.554"
+         id="path5049"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 596.49331,715.43302 a 4.255041,4.255041 0 0 0 4.42907,-2.61162"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5051"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 577.77943,699.7522 20.573,8.753"
+         id="path5053"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 600.92238,712.8214 a 4.255041,4.255041 0 0 0 -2.57019,-4.31574"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5055"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 579.21143,684.5862 22.068,-0.522"
+         id="path5057"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 601.27907,684.06373 a 4.255041,4.255041 0 0 0 4.0225,-3.20261"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5059"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 605.30157,680.86112 a 4.255041,4.255041 0 0 0 -3.14581,-3.91604"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5061"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 580.56543,671.1402 21.59,5.805"
+         id="path5063"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 256.41893,874.3782 -14.5017,9.44"
+         id="path5065"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 272.17213,864.1282 -15.7532,10.25"
+         id="path5067"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 500.12261,859.49715 a 6.724159,6.724159 0 0 0 6.71523,6.37783"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5071"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 238.21443,451.2802 v 14.078"
+         id="path5073"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 238.21443,465.3582 12.1912,7.038"
+         id="path5075"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 250.40563,472.3962 12.1913,-7.038"
+         id="path5077"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 262.59693,465.3582 v -14.078"
+         id="path5079"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 262.59693,451.2802 -12.1913,-7.038"
+         id="path5081"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 250.40563,444.2422 -12.1912,7.038"
+         id="path5083"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 477.46143,444.2422 -12.191,7.038"
+         id="path5085"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 465.27043,451.2802 v 14.078"
+         id="path5087"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 465.27043,465.3582 12.191,7.038"
+         id="path5089"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 477.46143,472.3962 12.191,-7.038"
+         id="path5091"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 489.65243,465.3582 v -14.078"
+         id="path5093"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 489.65243,451.2802 -12.191,-7.038"
+         id="path5095"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 250.40563,472.3962 12.1913,-7.038"
+         id="path5097"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="M 262.48171,848.51439 A 218.53516,218.53516 0 0 0 480.94463,470.38541"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5099"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 465.27012,461.33573 a 218.53516,218.53516 0 0 0 -202.6732,0"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5101"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 246.92241,470.38541 a 218.53524,218.53524 0 0 0 -0.28924,368.95595"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5103"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 500.12243,859.4982 v -30.99"
+         id="path5105"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 502.71944,823.75279 a 6.945041,6.945041 0 0 0 -2.59683,4.75414"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5107"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 221.0292,865.87498 a 6.724159,6.724159 0 0 0 6.71523,-6.37783"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5109"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 227.74443,859.4982 v -30.99"
+         id="path5111"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 227.74443,828.50693 a 6.945041,6.945041 0 0 0 -2.59682,-4.75414"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5113"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 465.32243,479.3442 28.629,-49.586"
+         id="path5117"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 477.14243,458.1382 20.282,11.305"
+         id="path5119"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 477.46143,458.3192 -20.109,-11.61"
+         id="path5121"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 250.29043,851.3082 20.031,11.74"
+         id="path5123"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 262.56933,830.3682 -25.294,43.14"
+         id="path5125"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 250.60833,851.4882 -20.2062,-11.44"
+         id="path5127"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="M 363.93352,823.05921 A 168.10397,168.10397 0 0 0 532.03749,654.95523"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5129"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 363.93352,734.80462 a 79.849387,79.849387 0 0 0 79.84939,-79.84939"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5131"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="M 363.93352,852.4774 A 191.23071,191.23071 0 0 0 560.33854,633.97725"
+         style="fill:none;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5133"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 250.40563,458.3192 -20.109,11.61"
+         id="path5135"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 262.54423,479.3442 -28.6281,-49.586"
+         id="path5137"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 250.08943,458.5052 19.9313,-11.913"
+         id="path5139"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="M 247.14543,436.2332 V 318.2172"
+         id="path5141"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 247.14543,318.2172 h 201.461"
+         id="path5143"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 480.51943,436.1582 0.202,-117.941"
+         id="path5147"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 480.72143,318.2172 h -201.461"
+         id="path5149"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 102.07533,654.9552 h 529.3031"
+         id="path5151"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 276.02113,696.0062 17.3463,30.044"
+         id="path5155"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 276.02113,696.0062 -7.9452,-13.762"
+         id="path5157"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 287.50243,699.0822 13.745,-7.935"
+         id="path5159"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 287.50243,699.0822 -21.837,12.608"
+         id="path5161"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 355.52843,558.2952 h -14.823"
+         id="path5163"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 355.52843,558.2952 h 32.783"
+         id="path5165"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 233.91613,429.7582 -2.6538,-4.596"
+         id="path5167"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 493.95143,429.7582 2.653,-4.596"
+         id="path5169"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 497.42443,469.4432 5.562,3.1"
+         id="path5171"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 465.32243,479.3442 -4.987,8.637"
+         id="path5173"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 457.35243,446.7092 -5.514,-3.184"
+         id="path5175"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 199.89123,865.8782 v -10.25"
+         id="path5177"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 527.97543,865.8782 v -10.25"
+         id="path5179"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 570.00143,878.4782 h -28.762"
+         id="path5181"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 570.00143,878.4782 h 13.467"
+         id="path5183"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 433.08543,694.8802 76.43,44.127"
+         id="path5185"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 433.08543,694.8802 -17.53,-10.121"
+         id="path5187"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 509.51543,739.0072 10.363,5.983"
+         id="path5189"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 504.74843,560.8662 40.89,-27.323"
+         id="path5191"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 504.74843,560.8662 -8.221,5.493"
+         id="path5193"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 545.63843,533.5432 11.03,-7.369"
+         id="path5195"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         d="m 561.45569,654.95523 a 197.52217,197.52217 0 0 0 -1.11715,-20.97798"
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         id="path5197"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 270.02073,446.5922 5.4656,-3.266"
+         id="path5199"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 262.54423,479.3442 4.987,8.637"
+         id="path5201"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 547.20543,876.3782 h 18.594"
+         id="path5205"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 546.92043,880.5882 h 18.879"
+         id="path5207"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 508.77043,554.0112 -3.03,2.025"
+         id="path5209"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 508.77043,554.0112 34.921,-23.333"
+         id="path5211"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 512.62043,559.7732 34.921,-23.333"
+         id="path5213"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000003;stroke-linecap:round;stroke-opacity:1"
+         d="m 512.62043,559.7732 -3.03,2.024"
+         id="path5215"
+         inkscape:export-filename="/home/elf/Видео/path4559.png"
+         inkscape:export-xdpi="228.52525"
+         inkscape:export-ydpi="228.52525" />
+    </g>
+  </g>
+</svg>

@@ -19,7 +19,7 @@ public:
 
 private:
     Ui::draw_poper *ui;
-    QDomDocument doc;
+    QDomDocument doc,doc2;
 };
 
 #endif // DRAW_POPER_H

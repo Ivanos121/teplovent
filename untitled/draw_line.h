@@ -20,7 +20,7 @@ public:
 
 private:
     Ui::draw_line *ui;
-    QDomDocument doc;
+    QDomDocument doc, doc2;
 };
 
 #endif // DRAW_LINE_H
