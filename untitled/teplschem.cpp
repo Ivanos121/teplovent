@@ -66,7 +66,7 @@ void teplschem::on_checkBox_clicked()
                 {
                     e.setNodeValue("Hello");
                     qDebug() << e.firstChild().nodeValue();
-                    qDebug() << doc.toString();
+                   // qDebug() << doc.toString();
                 }
             }
         }

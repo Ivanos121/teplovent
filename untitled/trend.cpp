@@ -6,6 +6,8 @@
 #include <QSvgWidget>
 #include <QGraphicsPixmapItem>
 
+int position_2;
+
 trend::trend(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::trend)
@@ -19,14 +21,14 @@ trend::trend(QWidget *parent) :
 
     if (!file.open(QIODevice::ReadOnly))
         return;
-    if (!doc.setContent(&file))
+    if (!doc3.setContent(&file))
     {
         file.close();
         return;
     }
     file.close();
 
-    ui->svgWidget2->load(doc.toByteArray());
+    ui->svgWidget2->load(doc3.toByteArray());
     QSvgRenderer *renderer = ui->svgWidget2->renderer();
     renderer->setAspectRatioMode(Qt::KeepAspectRatio);
 }
@@ -44,7 +46,7 @@ void trend::on_horizontalSlider_sliderMoved(int position)
     int color = 235 - position / 100.0 * 220.0;
     ui->label->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color));
 
-    QDomElement root = doc.firstChildElement();
+    QDomElement root = doc3.firstChildElement();
 
     QDomNodeList elemText = root.elementsByTagName("rect");
     for(int i = 0; i < elemText.count(); i++)
@@ -60,8 +62,37 @@ void trend::on_horizontalSlider_sliderMoved(int position)
                e.setAttribute("style", QString("fill:") + col_text + QString(";fill-opacity:1;stroke:#000000;stroke-width:0.26379;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"));
             }
 
+
         }
-        ui->svgWidget2->load(doc.toByteArray());
+            ui->svgWidget2->load(doc3.toByteArray());
+            QSvgRenderer *renderer = ui->svgWidget2->renderer();
+            renderer->setAspectRatioMode(Qt::KeepAspectRatio);
+        }
+
+    position_2=position;
+    //qDebug() << position_2;
+}
+
+
+void trend::on_pushButton_clicked()
+{
+    QDomElement root = doc3.firstChildElement();
+
+    QDomNodeList elemText = root.elementsByTagName("text");
+    for(int i = 0; i < elemText.count(); i++)
+    {
+        QDomNode elm = elemText.at(i);
+        if(elm.isElement())
+        {
+            QDomElement e = elm.toElement();
+            if (e.attribute("id") == QString("text19208"))
+            {
+              e.setNodeValue(QString("%1").arg(position_2));
+              qDebug() << "way 1" << e.nodeValue();
+            }
+
+        }
+        ui->svgWidget2->load(doc3.toByteArray());
         QSvgRenderer *renderer = ui->svgWidget2->renderer();
         renderer->setAspectRatioMode(Qt::KeepAspectRatio);
     }

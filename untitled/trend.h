@@ -21,9 +21,11 @@ public:
 private slots:
     void on_horizontalSlider_sliderMoved(int position);
 
+    void on_pushButton_clicked();
+
 private:
     Ui::trend *ui;
-    QDomDocument doc;
+    QDomDocument doc,doc3,doc4;
 };
 
 #endif // TREND_H
