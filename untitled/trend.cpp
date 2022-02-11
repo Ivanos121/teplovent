@@ -2,6 +2,7 @@
 #include "ui_trend.h"
 
 #include "cmath"
+#include "plot.h"
 #include <QtSvg>
 #include <QSvgWidget>
 #include <QGraphicsPixmapItem>
@@ -10,9 +11,22 @@ int position_2;
 
 trend::trend(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::trend)
+    ui(new Ui::trend),
+    t(0.0)
 {
     ui->setupUi(this);
+
+    ui->plot->t_max = 10.0;
+    ui->plot->U_max = 3.0;
+    ui->plot->margin_bottom = 40;
+    ui->plot->margin_left = 100;
+    ui->plot->reset();
+
+    connect(&timer, &QTimer::timeout, this, &trend::on_pushButton_clicked);
+    timer.start(100);
+
+    ui->plot->addDataLine(QColor(0,255,0), 200.0);
+
     ui->label->setStyleSheet(QString("background-color: hsl(235, 100%, 30%)"));
 
     ui->svgWidget2->setStyleSheet("QSvgWidget {background-color: white; border: 1px; border-style: solid; border-color: #c4c8cc;}");
@@ -74,7 +88,7 @@ void trend::on_horizontalSlider_sliderMoved(int position)
 
     root = doc3.firstChildElement();
 
-    elemText = root.elementsByTagName("text");
+    elemText = root.elementsByTagName("tspan");
     for(int i = 0; i < elemText.count(); i++)
     {
         QDomNode elm = elemText.at(i);
@@ -83,7 +97,7 @@ void trend::on_horizontalSlider_sliderMoved(int position)
             QDomElement e = elm.toElement();
             qDebug() << e.firstChild().nodeValue();
             e.firstChild().setNodeValue(QString("%1").arg(position*1.4));
-            if (e.attribute("id") == QString("text1926"))
+            if (e.attribute("id") == QString("tspan7974"))
             {
               e.setAttribute("style", "");
               qDebug() << "way 1" << e.nodeValue();
@@ -97,31 +111,35 @@ void trend::on_horizontalSlider_sliderMoved(int position)
     renderer->setAspectRatioMode(Qt::KeepAspectRatio);
 }
 
-
 void trend::on_pushButton_clicked()
 {
-    QDomElement root = doc3.firstChildElement();
+//    QDomElement root = doc3.firstChildElement();
 
-    QDomNodeList elemText = root.elementsByTagName("text");
-    for(int i = 0; i < elemText.count(); i++)
-    {
-        QDomNode elm = elemText.at(i);
-        if(elm.isElement())
-        {
-            QDomElement e = elm.toElement();
-            qDebug() << e.firstChild().nodeValue();
-            e.firstChild().setNodeValue(QString("%1").arg(position_2));
-            if (e.attribute("id") == QString("text1926"))
-            {
-              e.setAttribute("style", "");
-              qDebug() << "way 1" << e.nodeValue();
-            }
+//    QDomNodeList elemText = root.elementsByTagName("tspan");
+//    for(int i = 0; i < elemText.count(); i++)
+//    {
+//        QDomNode elm = elemText.at(i);
+//        if(elm.isElement())
+//        {
+//            QDomElement e = elm.toElement();
+//            qDebug() << e.firstChild().nodeValue();
+//            e.firstChild().setNodeValue(QString("%1").arg(position_2));
+//            if (e.attribute("id") == QString("tspan7974"))
+//            {
+//              e.setAttribute("style", "");
+//              qDebug() << "way 1" << e.nodeValue();
+//            }
 
-        }
+//        }
 
-    }
-    ui->svgWidget2->load(doc3.toByteArray());
-    QSvgRenderer *renderer = ui->svgWidget2->renderer();
-    renderer->setAspectRatioMode(Qt::KeepAspectRatio);
+//    }
+//    ui->svgWidget2->load(doc3.toByteArray());
+//    QSvgRenderer *renderer = ui->svgWidget2->renderer();
+//    renderer->setAspectRatioMode(Qt::KeepAspectRatio);
+
+
+
+        ui->plot->addPoint(0, t, 5*(1-exp(-t/20)));
+        t += 1.0 / 200.0 * ui->plot->t_max;
 }
 

@@ -13,6 +13,7 @@ SOURCES += \
     draw_poper.cpp \
     main.cpp \
     mainwindow.cpp \
+    plot.cpp \
     teplschem.cpp \
     trend.cpp \
     vvoddannie.cpp
@@ -22,6 +23,7 @@ HEADERS += \
     draw_line.h \
     draw_poper.h \
     mainwindow.h \
+    plot.h \
     teplschem.h \
     trend.h \
     vvoddannie.h

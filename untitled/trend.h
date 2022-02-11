@@ -5,6 +5,9 @@
 #include <QGraphicsTextItem>
 #include <QDomDocument>
 #include <QTimer>
+#include <QTimer>
+#include <QElapsedTimer>
+#include "plot.h"
 
 namespace Ui {
 class trend;
@@ -26,6 +29,8 @@ private slots:
 private:
     Ui::trend *ui;
     QDomDocument doc,doc3,doc4;
+    QTimer timer;
+     double t;
 };
 
 #endif // TREND_H
