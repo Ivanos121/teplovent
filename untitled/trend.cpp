@@ -71,6 +71,30 @@ void trend::on_horizontalSlider_sliderMoved(int position)
 
     position_2=position;
     //qDebug() << position_2;
+
+    root = doc3.firstChildElement();
+
+    elemText = root.elementsByTagName("text");
+    for(int i = 0; i < elemText.count(); i++)
+    {
+        QDomNode elm = elemText.at(i);
+        if(elm.isElement())
+        {
+            QDomElement e = elm.toElement();
+            qDebug() << e.firstChild().nodeValue();
+            e.firstChild().setNodeValue(QString("%1").arg(position*1.4));
+            if (e.attribute("id") == QString("text1926"))
+            {
+              e.setAttribute("style", "");
+              qDebug() << "way 1" << e.nodeValue();
+            }
+
+        }
+
+    }
+    ui->svgWidget2->load(doc3.toByteArray());
+    QSvgRenderer *renderer = ui->svgWidget2->renderer();
+    renderer->setAspectRatioMode(Qt::KeepAspectRatio);
 }
 
 
@@ -85,16 +109,19 @@ void trend::on_pushButton_clicked()
         if(elm.isElement())
         {
             QDomElement e = elm.toElement();
-            if (e.attribute("id") == QString("text19208"))
+            qDebug() << e.firstChild().nodeValue();
+            e.firstChild().setNodeValue(QString("%1").arg(position_2));
+            if (e.attribute("id") == QString("text1926"))
             {
-              e.setNodeValue(QString("%1").arg(position_2));
+              e.setAttribute("style", "");
               qDebug() << "way 1" << e.nodeValue();
             }
 
         }
-        ui->svgWidget2->load(doc3.toByteArray());
-        QSvgRenderer *renderer = ui->svgWidget2->renderer();
-        renderer->setAspectRatioMode(Qt::KeepAspectRatio);
+
     }
+    ui->svgWidget2->load(doc3.toByteArray());
+    QSvgRenderer *renderer = ui->svgWidget2->renderer();
+    renderer->setAspectRatioMode(Qt::KeepAspectRatio);
 }
 
