@@ -28,11 +28,16 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+    void on_timer_timeout();
+    void setcolorincell(int row, int column);
+
 private:
     Ui::trend *ui;
     QDomDocument doc,doc3,doc4;
     QTimer timer;
-     double t;
+    double t;
+    QVector<QColor> dataLineColors;
+
 };
 
 #endif // TREND_H
