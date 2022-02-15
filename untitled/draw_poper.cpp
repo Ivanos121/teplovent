@@ -13,7 +13,7 @@ draw_poper::draw_poper(QWidget *parent) :
 
     ui->widget_2->setStyleSheet("QSvgWidget {background-color: white; border: 1px; border-style: solid; border-color: #c4c8cc;}");
 
-    QFile file("rad_var.svg");
+    QFile file("../data/rad_var.svg");
 
     if (!file.open(QIODevice::ReadOnly))
         return;

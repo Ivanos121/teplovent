@@ -13,7 +13,7 @@ draw_line::draw_line(QWidget *parent) :
 
     ui->widget->setStyleSheet("QSvgWidget {background-color: white; border: 1px; border-style: solid; border-color: #c4c8cc;}");
 
-    QFile file("ax_var.svg");
+    QFile file("../data/ax_var.svg");
 
     if (!file.open(QIODevice::ReadOnly))
         return;

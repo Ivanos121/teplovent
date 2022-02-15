@@ -45,7 +45,7 @@ void teplschem::retrievElements(QDomElement root, QString tag, QString att)
         if(elm.isElement())
             {
                 QDomElement e = elm.toElement();
-                qDebug() << e.attribute(att);
+
             }
     }
 }
@@ -65,8 +65,6 @@ void teplschem::on_checkBox_clicked()
                 if (e.attribute("id") == QString("text525"))
                 {
                     e.setNodeValue("Hello");
-                    qDebug() << e.firstChild().nodeValue();
-                   // qDebug() << doc.toString();
                 }
             }
         }
