@@ -30,7 +30,7 @@ draw_line::draw_line(QWidget *parent) :
 
     ui->widget_2->setStyleSheet("QSvgWidget {background-color: white; border: 1px; border-style: solid; border-color: #c4c8cc;}");
 
-    QFile file2("grad_line.svg");
+    QFile file2("../data/grad_line.svg");
 
     if (!file2.open(QIODevice::ReadOnly))
         return;
