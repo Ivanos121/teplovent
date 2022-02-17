@@ -7,6 +7,8 @@
 #include <QtSvg>
 #include <QSvgWidget>
 #include <QGraphicsPixmapItem>
+#include "ui_mainwindow.h"
+#include "ui_draw_poper.h"
 
 int position_2;
 double t_max;
@@ -402,9 +404,9 @@ void trend::on_pushButton_clicked()
     ui->plot->addPoint(10, t, y10);
     ui->plot->addPoint(11, t, y11);
 
-    timer.start(100);
+    timer.start(1000);
 
-    t += 1.0;
+    t += 10.0;
 }
 
 
@@ -666,6 +668,8 @@ void trend::on_timer_timeout()
         ui->tableWidget->item(11, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
+   // mw->ui->widget_4;
+
 
     int color = 235 - (y0 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
     ui->label->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color));
@@ -703,9 +707,31 @@ void trend::on_timer_timeout()
     int color12 = 235 - (y11 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
     ui->label_14->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color12));
 
-    QDomElement root = doc3.firstChildElement();
+    QDomElement root = mw->ui->widget_4->doc.firstChildElement();
 
-    QDomNodeList elemText = root.elementsByTagName("rect");
+    QDomNodeList elemText = root.elementsByTagName("path");
+    for(int i = 0; i < elemText.count(); i++)
+    {
+        QDomNode elm = elemText.at(i);
+        if(elm.isElement())
+        {
+            QDomElement e = elm.toElement();
+            if (e.attribute("id") == QString("path1494"))
+            {
+               QColor col = QColor::fromHsl(color12,255,140);
+               QString col_text = QString("#%1%2%3").arg(col.red(),2,16).arg(col.green(),2,16).arg(col.blue(),2,16);
+               e.setAttribute("style", QString("fill:") + col_text + QString(";fill-opacity:1;stroke:#000000;stroke-width:0.26379;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"));
+            }
+        }
+            mw->ui->widget_4->ui->widget_2->load(mw->ui->widget_4->doc.toByteArray());
+            QSvgRenderer *renderer = mw->ui->widget_4->ui->widget_2->renderer();
+            renderer->setAspectRatioMode(Qt::KeepAspectRatio);
+    }
+
+
+    root = doc3.firstChildElement();
+
+   elemText = root.elementsByTagName("rect");
     for(int i = 0; i < elemText.count(); i++)
     {
         QDomNode elm = elemText.at(i);
@@ -746,4 +772,5 @@ void trend::on_timer_timeout()
     ui->svgWidget2->load(doc3.toByteArray());
     QSvgRenderer *renderer = ui->svgWidget2->renderer();
     renderer->setAspectRatioMode(Qt::KeepAspectRatio);
+
 }

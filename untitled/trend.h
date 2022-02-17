@@ -8,6 +8,7 @@
 #include <QTimer>
 #include <QElapsedTimer>
 #include "plot.h"
+#include "mainwindow.h"
 
 namespace Ui {
 class trend;
@@ -21,6 +22,8 @@ public:
     explicit trend(QWidget *parent = nullptr);
     ~trend();
 
+    MainWindow *mw;
+
 private slots:
     void on_horizontalSlider_sliderMoved(int position);
 
@@ -30,6 +33,7 @@ private slots:
 
     void on_timer_timeout();
     void setcolorincell(int row, int column);
+
 
 private:
     Ui::trend *ui;

@@ -16,10 +16,9 @@ class draw_poper : public QWidget
 public:
     explicit draw_poper(QWidget *parent = nullptr);
     ~draw_poper();
-
-private:
     Ui::draw_poper *ui;
     QDomDocument doc,doc2;
+
 };
 
 #endif // DRAW_POPER_H

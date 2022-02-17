@@ -21,7 +21,7 @@ private slots:
 
     void on_anAbout_triggered();
 
-private:
+public:
     Ui::MainWindow *ui;
 
 };

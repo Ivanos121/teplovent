@@ -18,6 +18,7 @@ public:
     explicit draw_line(QWidget *parent = nullptr);
     ~draw_line();
 
+
 private:
     Ui::draw_line *ui;
     QDomDocument doc, doc2;
