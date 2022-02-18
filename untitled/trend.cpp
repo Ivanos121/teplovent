@@ -9,6 +9,7 @@
 #include <QGraphicsPixmapItem>
 #include "ui_mainwindow.h"
 #include "ui_draw_poper.h"
+#include "ui_draw_line_new.h"
 
 int position_2;
 double t_max;
@@ -420,18 +421,18 @@ void trend::on_timer_timeout()
     double a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11;
     double b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11;
 
-    double y0=20*(1-exp(-t/2000))+ui->lineEdit->text().toDouble();
-    double y1=20*(1-exp(-t/2000))+ui->lineEdit->text().toDouble();
-    double y2=80*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y3=80*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y4=90*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y5=100*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y6=110*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y7=110*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y8=120*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y9=120*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y10=130*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y11=140*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
+    double y0=20*(1-exp(-t/200))+ui->lineEdit->text().toDouble();
+    double y1=20*(1-exp(-t/200))+ui->lineEdit->text().toDouble();
+    double y2=80*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
+    double y3=80*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
+    double y4=90*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
+    double y5=100*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
+    double y6=110*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
+    double y7=110*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
+    double y8=120*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
+    double y9=120*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
+    double y10=130*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
+    double y11=140*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
 
     a0=ui->tableWidget_2->item(0,4)->text().toDouble();
     a1=ui->tableWidget_2->item(1,4)->text().toDouble();
@@ -668,8 +669,7 @@ void trend::on_timer_timeout()
         ui->tableWidget->item(11, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
-   // mw->ui->widget_4;
-
+   // mw->ui->widget_4; 
 
     int color = 235 - (y0 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
     ui->label->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color));
@@ -707,7 +707,26 @@ void trend::on_timer_timeout()
     int color12 = 235 - (y11 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
     ui->label_14->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color12));
 
-    QDomElement root = mw->ui->widget_4->doc.firstChildElement();
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1548\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color11));
+
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#rect1539\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color12));
+
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6\").text('%1 C');").arg(y11, 0, 'f', 1));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*QDomElement root = mw->ui->widget_4->doc.firstChildElement();
 
     QDomNodeList elemText = root.elementsByTagName("path");
     for(int i = 0; i < elemText.count(); i++)
@@ -771,6 +790,6 @@ void trend::on_timer_timeout()
     }
     ui->svgWidget2->load(doc3.toByteArray());
     QSvgRenderer *renderer = ui->svgWidget2->renderer();
-    renderer->setAspectRatioMode(Qt::KeepAspectRatio);
+    renderer->setAspectRatioMode(Qt::KeepAspectRatio);*/
 
 }

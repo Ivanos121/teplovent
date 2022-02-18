@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui webkitwidgets webenginewidgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets svg xml
 
@@ -10,6 +10,7 @@ CONFIG += c++11
 
 SOURCES += \
     draw_line.cpp \
+    draw_line_new.cpp \
     draw_poper.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -21,6 +22,7 @@ SOURCES += \
 HEADERS += \
     Base.h \
     draw_line.h \
+    draw_line_new.h \
     draw_poper.h \
     mainwindow.h \
     plot.h \
@@ -30,6 +32,7 @@ HEADERS += \
 
 FORMS += \
     draw_line.ui \
+    draw_line_new.ui \
     draw_poper.ui \
     mainwindow.ui \
     teplschem.ui \

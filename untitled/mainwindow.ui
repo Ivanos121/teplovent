@@ -58,7 +58,7 @@
         <item row="0" column="0">
          <widget class="QTabWidget" name="tabWidget_2">
           <property name="currentIndex">
-           <number>0</number>
+           <number>3</number>
           </property>
           <widget class="QWidget" name="tab_5">
            <attribute name="title">
@@ -87,6 +87,16 @@
            <layout class="QGridLayout" name="gridLayout_7">
             <item row="0" column="0">
              <widget class="draw_line" name="widget_5" native="true"/>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_8">
+           <attribute name="title">
+            <string>Поперечное сечение</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_9">
+            <item row="0" column="0">
+             <widget class="draw_line_new" name="widget_7" native="true"/>
             </item>
            </layout>
           </widget>
@@ -176,6 +186,12 @@
    <class>trend</class>
    <extends>QWidget</extends>
    <header location="global">trend.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>draw_line_new</class>
+   <extends>QWidget</extends>
+   <header>draw_line_new.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
