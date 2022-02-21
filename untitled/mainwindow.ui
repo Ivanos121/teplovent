@@ -70,33 +70,33 @@
             </item>
            </layout>
           </widget>
-          <widget class="QWidget" name="tab_6">
-           <attribute name="title">
-            <string>Распределение температур по поперечному сечению</string>
-           </attribute>
-           <layout class="QGridLayout" name="gridLayout_6">
-            <item row="0" column="0">
-             <widget class="draw_poper" name="widget_4" native="true"/>
-            </item>
-           </layout>
-          </widget>
-          <widget class="QWidget" name="tab_7">
-           <attribute name="title">
-            <string>Рсапределение температур по продольному сечению</string>
-           </attribute>
-           <layout class="QGridLayout" name="gridLayout_7">
-            <item row="0" column="0">
-             <widget class="draw_line" name="widget_5" native="true"/>
-            </item>
-           </layout>
-          </widget>
           <widget class="QWidget" name="tab_8">
            <attribute name="title">
-            <string>Поперечное сечение</string>
+            <string>Распределение температур по продольному сечению</string>
            </attribute>
            <layout class="QGridLayout" name="gridLayout_9">
             <item row="0" column="0">
              <widget class="draw_line_new" name="widget_7" native="true"/>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_9">
+           <attribute name="title">
+            <string>Распределение температур по поперечному сечению</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_10">
+            <item row="0" column="0">
+             <widget class="draw_poper_new" name="widget_8" native="true"/>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_10">
+           <attribute name="title">
+            <string>Вентиляция</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_11">
+            <item row="0" column="0">
+             <widget class="vent_var" name="widget_9" native="true"/>
             </item>
            </layout>
           </widget>
@@ -171,18 +171,6 @@
    <container>1</container>
   </customwidget>
   <customwidget>
-   <class>draw_poper</class>
-   <extends>QWidget</extends>
-   <header>draw_poper.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>draw_line</class>
-   <extends>QWidget</extends>
-   <header>draw_line.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
    <class>trend</class>
    <extends>QWidget</extends>
    <header location="global">trend.h</header>
@@ -192,6 +180,18 @@
    <class>draw_line_new</class>
    <extends>QWidget</extends>
    <header>draw_line_new.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>draw_poper_new</class>
+   <extends>QWidget</extends>
+   <header>draw_poper_new.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>vent_var</class>
+   <extends>QWidget</extends>
+   <header>vent_var.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

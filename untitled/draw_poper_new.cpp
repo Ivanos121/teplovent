@@ -1,15 +1,16 @@
-#include "draw_line_new.h"
-#include "ui_draw_line_new.h"
+#include "draw_poper_new.h"
+#include "ui_draw_poper_new.h"
 
 #include <QFileInfo>
 #include <QIcon>
 
-draw_line_new::draw_line_new(QWidget *parent) :
+draw_poper_new::draw_poper_new(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::draw_line_new)
+    ui(new Ui::draw_poper_new)
 {
-    ui->setupUi(this);  
-    ui->webEngineView->setUrl(QUrl::fromLocalFile(QFileInfo("../data/ax_var/ax_var.html").absoluteFilePath()));
+    ui->setupUi(this);
+
+    ui->webEngineView->setUrl(QUrl::fromLocalFile(QFileInfo("../data/rad_var/rad_var.html").absoluteFilePath()));
     ui->webEngineView_2->setUrl(QUrl::fromLocalFile(QFileInfo("../data/grad_line/grad_line.html").absoluteFilePath()));
 
     ui->tableWidget->setRowCount(12);
@@ -62,7 +63,7 @@ draw_line_new::draw_line_new(QWidget *parent) :
     ui->tableWidget->setPalette(p99);
 }
 
-draw_line_new::~draw_line_new()
+draw_poper_new::~draw_poper_new()
 {
     delete ui;
 }

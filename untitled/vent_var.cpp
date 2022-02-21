@@ -1,15 +1,15 @@
-#include "draw_line_new.h"
-#include "ui_draw_line_new.h"
+#include "vent_var.h"
+#include "ui_vent_var.h"
 
 #include <QFileInfo>
 #include <QIcon>
 
-draw_line_new::draw_line_new(QWidget *parent) :
+vent_var::vent_var(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::draw_line_new)
+    ui(new Ui::vent_var)
 {
-    ui->setupUi(this);  
-    ui->webEngineView->setUrl(QUrl::fromLocalFile(QFileInfo("../data/ax_var/ax_var.html").absoluteFilePath()));
+    ui->setupUi(this);
+    ui->webEngineView->setUrl(QUrl::fromLocalFile(QFileInfo("../data/vent_var/vent_var.html").absoluteFilePath()));
     ui->webEngineView_2->setUrl(QUrl::fromLocalFile(QFileInfo("../data/grad_line/grad_line.html").absoluteFilePath()));
 
     ui->tableWidget->setRowCount(12);
@@ -62,7 +62,7 @@ draw_line_new::draw_line_new(QWidget *parent) :
     ui->tableWidget->setPalette(p99);
 }
 
-draw_line_new::~draw_line_new()
+vent_var::~vent_var()
 {
     delete ui;
 }

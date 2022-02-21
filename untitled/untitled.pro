@@ -12,11 +12,13 @@ SOURCES += \
     draw_line.cpp \
     draw_line_new.cpp \
     draw_poper.cpp \
+    draw_poper_new.cpp \
     main.cpp \
     mainwindow.cpp \
     plot.cpp \
     teplschem.cpp \
     trend.cpp \
+    vent_var.cpp \
     vvoddannie.cpp
 
 HEADERS += \
@@ -24,19 +26,23 @@ HEADERS += \
     draw_line.h \
     draw_line_new.h \
     draw_poper.h \
+    draw_poper_new.h \
     mainwindow.h \
     plot.h \
     teplschem.h \
     trend.h \
+    vent_var.h \
     vvoddannie.h
 
 FORMS += \
     draw_line.ui \
     draw_line_new.ui \
     draw_poper.ui \
+    draw_poper_new.ui \
     mainwindow.ui \
     teplschem.ui \
     trend.ui \
+    vent_var.ui \
     vvoddannie.ui
 
 # Default rules for deployment.

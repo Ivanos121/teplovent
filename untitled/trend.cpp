@@ -379,18 +379,18 @@ void trend::on_horizontalSlider_sliderMoved(int position)
 
 void trend::on_pushButton_clicked()
 {
-    double y0=20*(1-exp(-t/2000))+ui->lineEdit->text().toDouble();
-    double y1=20*(1-exp(-t/2000))+ui->lineEdit->text().toDouble();
-    double y2=60*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y3=60*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y4=70*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y5=80*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y6=90*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y7=90*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y8=100*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y9=100*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y10=110*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
-    double y11=120*(1-exp(-t/2500))+ui->lineEdit->text().toDouble();
+    double y0=20*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//станина
+    double y1=54*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//Подшипниковый узел справа сзади
+    double y2=110*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть слева спереди
+    double y3=56*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Подшипниковый узел слева спереди
+    double y4=115*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть слева спереди
+    double y5=112*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть слева сзади
+    double y6=90*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//станина
+    double y7=99*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть справа спереди
+    double y8=111*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть справа сзади
+    double y9=90*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Магнитопровод статора
+    double y10=60*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//Подшипниковый узел справа спереди
+    double y11=56*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//Подшипниковый узел слева сзади
 
     ui->plot->addPoint(0, t, y0);
     ui->plot->addPoint(1, t, y1);
@@ -421,18 +421,18 @@ void trend::on_timer_timeout()
     double a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11;
     double b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11;
 
-    double y0=20*(1-exp(-t/200))+ui->lineEdit->text().toDouble();
-    double y1=20*(1-exp(-t/200))+ui->lineEdit->text().toDouble();
-    double y2=80*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
-    double y3=80*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
-    double y4=90*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
-    double y5=100*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
-    double y6=110*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
-    double y7=110*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
-    double y8=120*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
-    double y9=120*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
-    double y10=130*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
-    double y11=140*(1-exp(-t/250))+ui->lineEdit->text().toDouble();
+    double y0=20*(1-exp(-t/20))+ui->lineEdit->text().toDouble();
+    double y1=54*(1-exp(-t/20))+ui->lineEdit->text().toDouble();
+    double y2=110*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    double y3=56*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    double y4=115*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    double y5=112*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    double y6=90*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    double y7=99*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    double y8=111*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    double y9=90*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    double y10=60*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    double y11=56*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
 
     a0=ui->tableWidget_2->item(0,4)->text().toDouble();
     a1=ui->tableWidget_2->item(1,4)->text().toDouble();
@@ -707,16 +707,71 @@ void trend::on_timer_timeout()
     int color12 = 235 - (y11 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
     ui->label_14->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color12));
 
-    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1548\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color11));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1548\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color5));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1598\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color8));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1544\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color6));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1594\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color9));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#rect1539\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color10));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1588\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color10));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1558\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color4));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1560\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color4));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1562\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color4));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1564\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color4));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1566\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color4));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1628\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color12));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1620\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color12));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1622\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color12));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1624\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color12));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1626\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color12));
 
-    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#rect1539\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color12));
-
-    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6\").text('%1 C');").arg(y11, 0, 'f', 1));
 
 
 
 
 
+
+
+
+
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6\").text('%1 C');").arg(y4, 0, 'f', 1));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-1\").text('%1 C');").arg(y7, 0, 'f', 1));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-5\").text('%1 C');").arg(y6, 0, 'f', 1));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-5-9\").text('%1 C');").arg(y8, 0, 'f', 1));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-2\").text('%1 C');").arg(y9, 0, 'f', 1));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-2-8-3\").text('%1 C');").arg(y9, 0, 'f', 1));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-3\").text('%1 C');").arg(y9, 0, 'f', 1));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-3-9\").text('%1 C');").arg(y11, 0, 'f', 1));
+
+
+
+
+
+
+//    double y0=20*(1-exp(-t/200))+ui->lineEdit->text().toDouble();//станина
+//    double y1=54*(1-exp(-t/200))+ui->lineEdit->text().toDouble();//Подшипниковый узел справа сзади
+//    double y2=110*(1-exp(-t/250))+ui->lineEdit->text().toDouble();//Лобовая часть слева спереди
+//    double y3=56*(1-exp(-t/250))+ui->lineEdit->text().toDouble();//Подшипниковый узел слева спереди
+//    double y4=115*(1-exp(-t/250))+ui->lineEdit->text().toDouble();//Лобовая часть слева спереди
+//    double y5=112*(1-exp(-t/250))+ui->lineEdit->text().toDouble();//Лобовая часть слева сзади
+//    double y6=90*(1-exp(-t/250))+ui->lineEdit->text().toDouble();//станина
+//    double y7=99*(1-exp(-t/250))+ui->lineEdit->text().toDouble();//Лобовая часть справа спереди
+//    double y8=111*(1-exp(-t/250))+ui->lineEdit->text().toDouble();//Лобовая часть справа сзади
+//    double y9=90*(1-exp(-t/250))+ui->lineEdit->text().toDouble();//Магнитопровод статора
+//    double y10=60*(1-exp(-t/200))+ui->lineEdit->text().toDouble();//Подшипниковый узел справа спереди
+//    double y11=56*(1-exp(-t/200))+ui->lineEdit->text().toDouble();//Подшипниковый узел слева сзади
+
+//    int color = 235 - (y0 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+//    int color2 = 235 - (y1 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+//    int color3 = 235 - (y2 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+//    int color4 = 235 - (y3 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+//    int color5 = 235 - (y4 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+//    int color6 = 235 - (y5 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+//    int color7 = 235 - (y6 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+//    int color8 = 235 - (y7 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+//    int color9 = 235 - (y8 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+//    int color10 = 235 - (y9 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+//    int color11 = 235 - (y10 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+//    int color12 = 235 - (y11 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
 
 
 
@@ -792,4 +847,34 @@ void trend::on_timer_timeout()
     QSvgRenderer *renderer = ui->svgWidget2->renderer();
     renderer->setAspectRatioMode(Qt::KeepAspectRatio);*/
 
+    double maxY2=140;
+    double minY2=100;
+    double middleY2=0;
+    double count=0;
+
+    if (y2 > maxY2)
+           {
+               maxY2 = y2;
+           }
+
+           if (y2 < minY2)
+           {
+               minY2 = y2;
+           }
+
+           middleY2 += y2;
+           count++;
+
+   if (count == 3)
+   {
+       middleY2 /= count;
+
+       count = 0;
+
+       if (fabs((maxY2 - minY2)/middleY2) < 0.5)
+       {
+            timer.stop();
+            QMessageBox::information(this, tr("Сообщение"), tr("Расчет окончен!"));
+       }
+   }
 }
