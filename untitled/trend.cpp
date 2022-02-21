@@ -393,7 +393,7 @@ void trend::on_pushButton_clicked()
     y_1=54*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//Подшипниковый узел справа сзади
     y_2=110*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть слева спереди
     y_3=56*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Подшипниковый узел слева спереди
-    y_4=115*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть слева спереди
+    y_4=120*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть слева спереди
     y_5=112*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть слева сзади
     y_6=90*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//станина
     y_7=99*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть справа спереди
@@ -432,7 +432,7 @@ void trend::on_timer_timeout()
     y_1=54*(1-exp(-t/20))+ui->lineEdit->text().toDouble();
     y_2=110*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
     y_3=56*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
-    y_4=115*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    y_4=120*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
     y_5=112*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
     y_6=90*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
     y_7=99*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
@@ -740,7 +740,7 @@ void trend::on_timer_timeout()
 
 
 
-    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6\").text('%1 C');").arg(y_2, 0, 'f', 1));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6\").text('%1 C');").arg(y_4, 0, 'f', 1));
     mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-1\").text('%1 C');").arg(y_7, 0, 'f', 1));
     mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-5\").text('%1 C');").arg(y_6, 0, 'f', 1));
     mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-5-9\").text('%1 C');").arg(y_8, 0, 'f', 1));
@@ -782,6 +782,7 @@ void trend::on_timer_timeout()
 
 
 //Проверка условия окончания расчета
+
     if (y_2 > maxY2)
            {
                maxY2 = y_2;
@@ -796,11 +797,60 @@ void trend::on_timer_timeout()
 
    if (count == 3)
    {
+
        if ((maxY2 - minY2)/maxY2 < 0.005)
        {
             timer.stop();
+
+            if(y_0>y_1)
+            {
+                max=y_1;
+            }
+            else max=y_0;
+
+            if(max<y_2)
+            {
+                max=y_2;
+            }
+            if(max<y_3)
+            {
+                max=y_3;
+            }
+            if(max<y_4)
+            {
+                max=y_4;
+            }
+            if(max<y_5)
+            {
+                max=y_5;
+            }
+            if(max<y_6)
+            {
+               max=y_6;
+            }
+            if(max<y_7)
+            {
+                max=y_7;
+            }
+            if(max<y_8)
+            {
+                max=y_8;
+            }
+            if(max<y_9)
+            {
+                max=y_9;
+            }
+            if(max<y_10)
+            {
+                max=y_10;
+            }
+            if(max<y_11)
+            {
+                max=y_11;
+            }
+
             double miny=ui->lineEdit->text().toDouble();
-            double h=(maxY2-miny)/9;
+            double h=(max-miny)/9;
             double shag1=miny+h;
             double shag2=shag1+h;
             double shag3=shag2+h;
@@ -809,7 +859,7 @@ void trend::on_timer_timeout()
             double shag6=shag5+h;
             double shag7=shag6+h;
             double shag8=shag7+h;
-            mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan901\").text('%1 C');").arg(maxY2, 0, 'f', 1));
+            mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan901\").text('%1 C');").arg(max, 0, 'f', 1));
             mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan865\").text('%1 C');").arg(miny, 0, 'f', 1));
             mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan869\").text('%1 C');").arg(shag1, 0, 'f', 1));
             mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan873\").text('%1 C');").arg(shag2, 0, 'f', 1));

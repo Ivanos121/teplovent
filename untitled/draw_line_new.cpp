@@ -66,61 +66,73 @@ draw_line_new::draw_line_new(QWidget *parent) :
     if (ui->tableWidget->item(0, 2) != 0)
     {
         ui->tableWidget->item(0, 2)->setText(QString("%1").arg(QString::number(y_0,'f',3)));
+        ui->tableWidget->item(0, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(1, 2) != 0)
     {
         ui->tableWidget->item(1, 2)->setText(QString("%1").arg(QString::number(y_1,'f',3)));
+        ui->tableWidget->item(1, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(2, 2) != 0)
     {
         ui->tableWidget->item(2, 2)->setText(QString("%1").arg(QString::number(y_2,'f',3)));
+        ui->tableWidget->item(2, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(3, 2) != 0)
     {
         ui->tableWidget->item(3, 2)->setText(QString("%1").arg(QString::number(y_3,'f',3)));
+        ui->tableWidget->item(3, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(4, 2) != 0)
     {
         ui->tableWidget->item(4, 2)->setText(QString("%1").arg(QString::number(y_4,'f',3)));
+        ui->tableWidget->item(4, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(5, 2) != 0)
     {
         ui->tableWidget->item(5, 2)->setText(QString("%1").arg(QString::number(y_5,'f',3)));
+        ui->tableWidget->item(5, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(6, 2) != 0)
     {
         ui->tableWidget->item(6, 2)->setText(QString("%1").arg(QString::number(y_6,'f',3)));
+        ui->tableWidget->item(6, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(7, 2) != 0)
     {
         ui->tableWidget->item(7, 2)->setText(QString("%1").arg(QString::number(y_7,'f',3)));
+        ui->tableWidget->item(7, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(8, 2) != 0)
     {
         ui->tableWidget->item(8, 2)->setText(QString("%1").arg(QString::number(y_8,'f',3)));
+        ui->tableWidget->item(8, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(9, 2) != 0)
     {
         ui->tableWidget->item(9, 2)->setText(QString("%1").arg(QString::number(y_9,'f',3)));
+        ui->tableWidget->item(9, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(10, 2) != 0)
     {
         ui->tableWidget->item(10, 2)->setText(QString("%1").arg(QString::number(y_10,'f',3)));
+        ui->tableWidget->item(10, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(11, 2) != 0)
     {
         ui->tableWidget->item(11, 2)->setText(QString("%1").arg(QString::number(y_11,'f',3)));
+        ui->tableWidget->item(11, 2)->setTextAlignment(Qt::AlignCenter);
     }
 }
 

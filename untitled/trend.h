@@ -46,6 +46,7 @@ private:
     double minY2;
 
     double count;
+    double max;
 
 
 
