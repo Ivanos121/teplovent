@@ -42,6 +42,11 @@ private:
     double t;
     QVector<QColor> dataLineColors;
 
+    double maxY2;
+    double minY2;
+
+    double count;
+
 };
 
 #endif // TREND_H

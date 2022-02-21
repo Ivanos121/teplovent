@@ -19,6 +19,11 @@ trend::trend(QWidget *parent) :
     ui(new Ui::trend),
     t(0.0)
 {
+    maxY2 = 0;
+    minY2 = 200;
+
+    count = 0;
+
     ui->setupUi(this);
 
     //Настройки виджета Plot
@@ -669,45 +674,45 @@ void trend::on_timer_timeout()
         ui->tableWidget->item(11, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
-   // mw->ui->widget_4; 
+   // Расчет значений цветов
 
-    int color = 235 - (y0 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+    int color = 235 - (y0 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color));
 
-    int color2 = 235 - (y1 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+    int color2 = 235 - (y1 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_4->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color2));
 
-    int color3 = 235 - (y2 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+    int color3 = 235 - (y2 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_5->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color3));
 
-    int color4 = 235 - (y3 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+    int color4 = 235 - (y3 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_6->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color4));
 
-    int color5 = 235 - (y4 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+    int color5 = 235 - (y4 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_7->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color5));
 
-    int color6 = 235 - (y5 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+    int color6 = 235 - (y5 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_8->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color6));
 
-    int color7 = 235 - (y6 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+    int color7 = 235 - (y6 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_9->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color7));
 
-    int color8 = 235 - (y7 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+    int color8 = 235 - (y7 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_10->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color8));
 
-    int color9 = 235 - (y8 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+    int color9 = 235 - (y8 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_11->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color9));
 
-    int color10 = 235 - (y9 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+    int color10 = 235 - (y9 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_12->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color10));
 
-    int color11 = 235 - (y10 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+    int color11 = 235 - (y10 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_13->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color11));
 
-    int color12 = 235 - (y11 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
+    int color12 = 235 - (y11 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_14->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color12));
 
-    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1548\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color5));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1548\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color3));
     mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1598\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color8));
     mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1544\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color6));
     mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1594\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color9));
@@ -733,7 +738,7 @@ void trend::on_timer_timeout()
 
 
 
-    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6\").text('%1 C');").arg(y4, 0, 'f', 1));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6\").text('%1 C');").arg(y2, 0, 'f', 1));
     mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-1\").text('%1 C');").arg(y7, 0, 'f', 1));
     mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-5\").text('%1 C');").arg(y6, 0, 'f', 1));
     mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-5-9\").text('%1 C');").arg(y8, 0, 'f', 1));
@@ -774,84 +779,7 @@ void trend::on_timer_timeout()
 //    int color12 = 235 - (y11 - ui->lineEdit->text().toDouble()) / 140.0 * 220.0;
 
 
-
-
-
-
-
-
-
-    /*QDomElement root = mw->ui->widget_4->doc.firstChildElement();
-
-    QDomNodeList elemText = root.elementsByTagName("path");
-    for(int i = 0; i < elemText.count(); i++)
-    {
-        QDomNode elm = elemText.at(i);
-        if(elm.isElement())
-        {
-            QDomElement e = elm.toElement();
-            if (e.attribute("id") == QString("path1494"))
-            {
-               QColor col = QColor::fromHsl(color12,255,140);
-               QString col_text = QString("#%1%2%3").arg(col.red(),2,16).arg(col.green(),2,16).arg(col.blue(),2,16);
-               e.setAttribute("style", QString("fill:") + col_text + QString(";fill-opacity:1;stroke:#000000;stroke-width:0.26379;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"));
-            }
-        }
-            mw->ui->widget_4->ui->widget_2->load(mw->ui->widget_4->doc.toByteArray());
-            QSvgRenderer *renderer = mw->ui->widget_4->ui->widget_2->renderer();
-            renderer->setAspectRatioMode(Qt::KeepAspectRatio);
-    }
-
-
-    root = doc3.firstChildElement();
-
-   elemText = root.elementsByTagName("rect");
-    for(int i = 0; i < elemText.count(); i++)
-    {
-        QDomNode elm = elemText.at(i);
-        if(elm.isElement())
-        {
-            QDomElement e = elm.toElement();
-            if (e.attribute("id") == QString("rect1257"))
-            {
-               QColor col = QColor::fromHsl(color,255,140);
-               QString col_text = QString("#%1%2%3").arg(col.red(),2,16).arg(col.green(),2,16).arg(col.blue(),2,16);
-               e.setAttribute("style", QString("fill:") + col_text + QString(";fill-opacity:1;stroke:#000000;stroke-width:0.26379;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"));
-            }
-        }
-            ui->svgWidget2->load(doc3.toByteArray());
-            QSvgRenderer *renderer = ui->svgWidget2->renderer();
-            renderer->setAspectRatioMode(Qt::KeepAspectRatio);
-    }
-
-    root = doc3.firstChildElement();
-
-    elemText = root.elementsByTagName("text");
-    for(int i = 0; i < elemText.count(); i++)
-    {
-        QDomNode elm = elemText.at(i);
-        if(elm.isElement())
-        {
-            QDomElement e = elm.toElement();
-            e.firstChild().setNodeValue(QString("%1").arg(y1));
-            if (e.attribute("id") == QString("text1926"))
-            {
-              e.setAttribute("style", "");
-
-            }
-
-        }
-
-    }
-    ui->svgWidget2->load(doc3.toByteArray());
-    QSvgRenderer *renderer = ui->svgWidget2->renderer();
-    renderer->setAspectRatioMode(Qt::KeepAspectRatio);*/
-
-    double maxY2=140;
-    double minY2=100;
-    double middleY2=0;
-    double count=0;
-
+//Проверка условия окончания расчета
     if (y2 > maxY2)
            {
                maxY2 = y2;
@@ -862,19 +790,39 @@ void trend::on_timer_timeout()
                minY2 = y2;
            }
 
-           middleY2 += y2;
            count++;
 
    if (count == 3)
    {
-       middleY2 /= count;
-
-       count = 0;
-
-       if (fabs((maxY2 - minY2)/middleY2) < 0.5)
+       if ((maxY2 - minY2)/maxY2 < 0.005)
        {
             timer.stop();
+            double miny=ui->lineEdit->text().toDouble();
+            double h=(maxY2-miny)/9;
+            double shag1=miny+h;
+            double shag2=shag1+h;
+            double shag3=shag2+h;
+            double shag4=shag3+h;
+            double shag5=shag4+h;
+            double shag6=shag5+h;
+            double shag7=shag6+h;
+            double shag8=shag7+h;
+            mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan901\").text('%1 C');").arg(maxY2, 0, 'f', 1));
+            mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan865\").text('%1 C');").arg(miny, 0, 'f', 1));
+            mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan869\").text('%1 C');").arg(shag1, 0, 'f', 1));
+            mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan873\").text('%1 C');").arg(shag2, 0, 'f', 1));
+            mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan877\").text('%1 C');").arg(shag3, 0, 'f', 1));
+            mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan881\").text('%1 C');").arg(shag4, 0, 'f', 1));
+            mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan885\").text('%1 C');").arg(shag5, 0, 'f', 1));
+            mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan889\").text('%1 C');").arg(shag6, 0, 'f', 1));
+            mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan893\").text('%1 C');").arg(shag7, 0, 'f', 1));
+            mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan897\").text('%1 C');").arg(shag8, 0, 'f', 1));
             QMessageBox::information(this, tr("Сообщение"), tr("Расчет окончен!"));
        }
+
+       maxY2 = 0;
+       minY2 = 200;
+
+       count = 0;
    }
 }

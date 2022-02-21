@@ -59,7 +59,7 @@ draw_line_new::draw_line_new(QWidget *parent) :
     QPalette p99=ui->tableWidget->palette();
     p99.setColor(QPalette::Base, QColor(225, 255, 255));
     p99.setColor(QPalette::AlternateBase, QColor(200, 255, 255));
-    ui->tableWidget->setPalette(p99);
+    ui->tableWidget->setPalette(p99);\
 }
 
 draw_line_new::~draw_line_new()
