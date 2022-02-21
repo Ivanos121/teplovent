@@ -14,6 +14,11 @@
 int position_2;
 double t_max;
 
+extern double y_0,y_1,y_2,y_3,y_4,y_5,y_6,y_7,y_8,y_9,y_10,y_11;
+double a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11;
+double b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11;
+
+
 trend::trend(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::trend),
@@ -33,18 +38,18 @@ trend::trend(QWidget *parent) :
     ui->plot->margin_left = 100;
     ui->plot->reset();
 
-    //добавление графов в виджет plot
-    ui->plot->addDataLine(QColor(255,0,0), 0);   //Станина
-    ui->plot->addDataLine(QColor(255,255,0), 0); //Подшипниковый узел справа сзади
-    ui->plot->addDataLine(QColor(0,255,0), 0);   //Лобовая часть слева спереди
-    ui->plot->addDataLine(QColor(0,0,255), 0);   //Подшипниковый узел слева спереди
-    ui->plot->addDataLine(QColor(255,102,0), 0); //Лобовая часть слева сзади
-    ui->plot->addDataLine(QColor(255,0,255), 0); //Станина
-    ui->plot->addDataLine(QColor(255,55,55), 0); //Лобовая часть справа спереди
-    ui->plot->addDataLine(QColor(55,10,220), 0); //Лобовая часть справа сзади
-    ui->plot->addDataLine(QColor(25,155,0), 0); //Магнитопровод статора
-    ui->plot->addDataLine(QColor(255,0,0), 0); //Подшипниковый узел справа спереди
-    ui->plot->addDataLine(QColor(255,0,0), 0); //Подшипниковый узел слева сзади
+//    //добавление графов в виджет plot
+//    ui->plot->addDataLine(QColor(255,0,0), 0);   //Станина
+//    ui->plot->addDataLine(QColor(255,255,0), 0); //Подшипниковый узел справа сзади
+//    ui->plot->addDataLine(QColor(0,255,0), 0);   //Лобовая часть слева спереди
+//    ui->plot->addDataLine(QColor(0,0,255), 0);   //Подшипниковый узел слева спереди
+//    ui->plot->addDataLine(QColor(255,102,0), 0); //Лобовая часть слева сзади
+//    ui->plot->addDataLine(QColor(255,0,255), 0); //Станина
+//    ui->plot->addDataLine(QColor(255,55,55), 0); //Лобовая часть справа спереди
+//    ui->plot->addDataLine(QColor(55,10,220), 0); //Лобовая часть справа сзади
+//    ui->plot->addDataLine(QColor(25,155,0), 0); //Магнитопровод статора
+//    ui->plot->addDataLine(QColor(255,0,0), 0); //Подшипниковый узел справа спереди
+//    ui->plot->addDataLine(QColor(255,0,0), 0); //Подшипниковый узел слева сзади
 
     connect(&timer, &QTimer::timeout, this, &trend::on_timer_timeout);
 
@@ -291,14 +296,14 @@ trend::trend(QWidget *parent) :
     dataLineColors.append(Qt::green);
     dataLineColors.append(Qt::cyan);
     dataLineColors.append(Qt::yellow);
-    dataLineColors.append(Qt::red);
-    dataLineColors.append(Qt::green);
-    dataLineColors.append(Qt::cyan);
-    dataLineColors.append(Qt::yellow);
-    dataLineColors.append(Qt::yellow);
-    dataLineColors.append(Qt::yellow);
-    dataLineColors.append(Qt::yellow);
-    dataLineColors.append(Qt::yellow);
+    dataLineColors.append(Qt::magenta);
+    dataLineColors.append(Qt::blue);
+    dataLineColors.append(Qt::darkGreen);
+    dataLineColors.append(Qt::darkBlue);
+    dataLineColors.append(Qt::darkYellow);
+    dataLineColors.append(Qt::darkMagenta);
+    dataLineColors.append(Qt::darkCyan);
+    dataLineColors.append(Qt::darkRed);
 
     for (int i = 0; i < dataLineColors.size(); i++)
     {
@@ -384,31 +389,31 @@ void trend::on_horizontalSlider_sliderMoved(int position)
 
 void trend::on_pushButton_clicked()
 {
-    double y0=20*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//станина
-    double y1=54*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//Подшипниковый узел справа сзади
-    double y2=110*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть слева спереди
-    double y3=56*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Подшипниковый узел слева спереди
-    double y4=115*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть слева спереди
-    double y5=112*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть слева сзади
-    double y6=90*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//станина
-    double y7=99*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть справа спереди
-    double y8=111*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть справа сзади
-    double y9=90*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Магнитопровод статора
-    double y10=60*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//Подшипниковый узел справа спереди
-    double y11=56*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//Подшипниковый узел слева сзади
+    y_0=20*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//станина
+    y_1=54*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//Подшипниковый узел справа сзади
+    y_2=110*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть слева спереди
+    y_3=56*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Подшипниковый узел слева спереди
+    y_4=115*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть слева спереди
+    y_5=112*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть слева сзади
+    y_6=90*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//станина
+    y_7=99*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть справа спереди
+    y_8=111*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть справа сзади
+    y_9=90*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Магнитопровод статора
+    y_10=60*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//Подшипниковый узел справа спереди
+    y_11=56*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//Подшипниковый узел слева сзади
 
-    ui->plot->addPoint(0, t, y0);
-    ui->plot->addPoint(1, t, y1);
-    ui->plot->addPoint(2, t, y2);
-    ui->plot->addPoint(3, t, y3);
-    ui->plot->addPoint(4, t, y4);
-    ui->plot->addPoint(5, t, y5);
-    ui->plot->addPoint(6, t, y6);
-    ui->plot->addPoint(7, t, y7);
-    ui->plot->addPoint(8, t, y8);
-    ui->plot->addPoint(9, t, y9);
-    ui->plot->addPoint(10, t, y10);
-    ui->plot->addPoint(11, t, y11);
+    ui->plot->addPoint(0, t, y_0);
+    ui->plot->addPoint(1, t, y_1);
+    ui->plot->addPoint(2, t, y_2);
+    ui->plot->addPoint(3, t, y_3);
+    ui->plot->addPoint(4, t, y_4);
+    ui->plot->addPoint(5, t, y_5);
+    ui->plot->addPoint(6, t, y_6);
+    ui->plot->addPoint(7, t, y_7);
+    ui->plot->addPoint(8, t, y_8);
+    ui->plot->addPoint(9, t, y_9);
+    ui->plot->addPoint(10, t, y_10);
+    ui->plot->addPoint(11, t, y_11);
 
     timer.start(1000);
 
@@ -423,21 +428,18 @@ void trend::on_pushButton_2_clicked()
 
 void trend::on_timer_timeout()
 {
-    double a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11;
-    double b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11;
-
-    double y0=20*(1-exp(-t/20))+ui->lineEdit->text().toDouble();
-    double y1=54*(1-exp(-t/20))+ui->lineEdit->text().toDouble();
-    double y2=110*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
-    double y3=56*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
-    double y4=115*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
-    double y5=112*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
-    double y6=90*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
-    double y7=99*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
-    double y8=111*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
-    double y9=90*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
-    double y10=60*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
-    double y11=56*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    y_0=20*(1-exp(-t/20))+ui->lineEdit->text().toDouble();
+    y_1=54*(1-exp(-t/20))+ui->lineEdit->text().toDouble();
+    y_2=110*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    y_3=56*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    y_4=115*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    y_5=112*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    y_6=90*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    y_7=99*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    y_8=111*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    y_9=90*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    y_10=60*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
+    y_11=56*(1-exp(-t/25))+ui->lineEdit->text().toDouble();
 
     a0=ui->tableWidget_2->item(0,4)->text().toDouble();
     a1=ui->tableWidget_2->item(1,4)->text().toDouble();
@@ -467,62 +469,62 @@ void trend::on_timer_timeout()
 
     if(ui->tableWidget_2->model()->index(0,2).data(Qt::CheckStateRole)==Qt::Checked)
     {
-        ui->plot->addPoint(0, t, b0+a0*y0);
+        ui->plot->addPoint(0, t, b0+a0*y_0);
     }
 
     if(ui->tableWidget_2->model()->index(1,2).data(Qt::CheckStateRole)==Qt::Checked)
     {
-        ui->plot->addPoint(1, t, b1+a1*y1);
+        ui->plot->addPoint(1, t, b1+a1*y_1);
     }
 
     if(ui->tableWidget_2->model()->index(2,2).data(Qt::CheckStateRole)==Qt::Checked)
     {
-        ui->plot->addPoint(2, t, b2+a2*y2);
+        ui->plot->addPoint(2, t, b2+a2*y_2);
     }
 
     if(ui->tableWidget_2->model()->index(3,2).data(Qt::CheckStateRole)==Qt::Checked)
     {
-        ui->plot->addPoint(3, t, b3+a3*y3);
+        ui->plot->addPoint(3, t, b3+a3*y_3);
     }
 
     if(ui->tableWidget_2->model()->index(4,2).data(Qt::CheckStateRole)==Qt::Checked)
     {
-        ui->plot->addPoint(4, t, b4+a4*y4);
+        ui->plot->addPoint(4, t, b4+a4*y_4);
     }
 
     if(ui->tableWidget_2->model()->index(5,2).data(Qt::CheckStateRole)==Qt::Checked)
     {
-        ui->plot->addPoint(5, t, b5+a5*y5);
+        ui->plot->addPoint(5, t, b5+a5*y_5);
     }
 
     if(ui->tableWidget_2->model()->index(6,2).data(Qt::CheckStateRole)==Qt::Checked)
     {
-        ui->plot->addPoint(6, t, b6+a6*y6);
+        ui->plot->addPoint(6, t, b6+a6*y_6);
     }
 
     if(ui->tableWidget_2->model()->index(7,2).data(Qt::CheckStateRole)==Qt::Checked)
     {
-        ui->plot->addPoint(7, t, b7+a7*y7);
+        ui->plot->addPoint(7, t, b7+a7*y_7);
     }
 
     if(ui->tableWidget_2->model()->index(8,2).data(Qt::CheckStateRole)==Qt::Checked)
     {
-        ui->plot->addPoint(8, t, b8+a8*y8);
+        ui->plot->addPoint(8, t, b8+a8*y_8);
     }
 
     if(ui->tableWidget_2->model()->index(9,2).data(Qt::CheckStateRole)==Qt::Checked)
     {
-        ui->plot->addPoint(9, t, b9+a9*y9);
+        ui->plot->addPoint(9, t, b9+a9*y_9);
     }
 
     if(ui->tableWidget_2->model()->index(10,2).data(Qt::CheckStateRole)==Qt::Checked)
     {
-        ui->plot->addPoint(10, t, b10+a10*y10);
+        ui->plot->addPoint(10, t, b10+a10*y_10);
     }
 
     if(ui->tableWidget_2->model()->index(10,2).data(Qt::CheckStateRole)==Qt::Checked)
     {
-        ui->plot->addPoint(11, t, b11+a11*y11);
+        ui->plot->addPoint(11, t, b11+a11*y_11);
     }
 
 //    ui->plot->addPoint(0, t, y1);
@@ -542,174 +544,174 @@ void trend::on_timer_timeout()
 
     if (ui->tableWidget_2->item(0, 3) != 0)
     {
-        ui->tableWidget_2->item(0, 3)->setText(QString("%1").arg(QString::number(b0+a0*y0,'f',3)));
+        ui->tableWidget_2->item(0, 3)->setText(QString("%1").arg(QString::number(b0+a0*y_0,'f',3)));
     }
 
     if (ui->tableWidget_2->item(1, 3) != 0)
     {
-        ui->tableWidget_2->item(1, 3)->setText(QString("%1").arg(b1+a1*y1));
+        ui->tableWidget_2->item(1, 3)->setText(QString("%1").arg(b1+a1*y_1));
     }
 
     if (ui->tableWidget_2->item(2, 3) != 0)
     {
-        ui->tableWidget_2->item(2, 3)->setText(QString("%1").arg(b2+a2*y2));
+        ui->tableWidget_2->item(2, 3)->setText(QString("%1").arg(b2+a2*y_2));
     }
 
     if (ui->tableWidget_2->item(3, 3) != 0)
     {
-        ui->tableWidget_2->item(3, 3)->setText(QString("%1").arg(b3+a3*y3));
+        ui->tableWidget_2->item(3, 3)->setText(QString("%1").arg(b3+a3*y_3));
     }
 
     if (ui->tableWidget_2->item(4, 3) != 0)
     {
-        ui->tableWidget_2->item(4, 3)->setText(QString("%1").arg(b4+a4*y4));
+        ui->tableWidget_2->item(4, 3)->setText(QString("%1").arg(b4+a4*y_4));
     }
 
     if (ui->tableWidget_2->item(5, 3) != 0)
     {
-        ui->tableWidget_2->item(5, 3)->setText(QString("%1").arg(b5+a5*y5));
+        ui->tableWidget_2->item(5, 3)->setText(QString("%1").arg(b5+a5*y_5));
     }
 
     if (ui->tableWidget_2->item(6, 3) != 0)
     {
-        ui->tableWidget_2->item(6, 3)->setText(QString("%1").arg(b6+a6*y6));
+        ui->tableWidget_2->item(6, 3)->setText(QString("%1").arg(b6+a6*y_6));
     }
 
     if (ui->tableWidget_2->item(7, 3) != 0)
     {
-        ui->tableWidget_2->item(7, 3)->setText(QString("%1").arg(b7+a7*y7));
+        ui->tableWidget_2->item(7, 3)->setText(QString("%1").arg(b7+a7*y_7));
     }
 
     if (ui->tableWidget_2->item(8, 3) != 0)
     {
-        ui->tableWidget_2->item(8, 3)->setText(QString("%1").arg(b8+a8*y8));
+        ui->tableWidget_2->item(8, 3)->setText(QString("%1").arg(b8+a8*y_8));
     }
 
     if (ui->tableWidget_2->item(9, 3) != 0)
     {
-        ui->tableWidget_2->item(9, 3)->setText(QString("%1").arg(b9+a9*y9));
+        ui->tableWidget_2->item(9, 3)->setText(QString("%1").arg(b9+a9*y_9));
     }
 
     if (ui->tableWidget_2->item(10, 3) != 0)
     {
-        ui->tableWidget_2->item(10, 3)->setText(QString("%1").arg(b10+a10*y10));
+        ui->tableWidget_2->item(10, 3)->setText(QString("%1").arg(b10+a10*y_10));
     }
 
     if (ui->tableWidget_2->item(11, 3) != 0)
     {
-        ui->tableWidget_2->item(11, 3)->setText(QString("%1").arg(b11+a11*y11));
+        ui->tableWidget_2->item(11, 3)->setText(QString("%1").arg(b11+a11*y_11));
     }
 
 
 
     if (ui->tableWidget->item(0, 2) != 0)
     {
-        ui->tableWidget->item(0, 2)->setText(QString("%1").arg(b0+a0*y0));
+        ui->tableWidget->item(0, 2)->setText(QString("%1").arg(b0+a0*y_0));
         ui->tableWidget->item(0, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(1, 2) != 0)
     {
-        ui->tableWidget->item(1, 2)->setText(QString("%1").arg(b1+a1*y1));
+        ui->tableWidget->item(1, 2)->setText(QString("%1").arg(b1+a1*y_1));
         ui->tableWidget->item(1, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(2, 2) != 0)
     {
-        ui->tableWidget->item(2, 2)->setText(QString("%1").arg(b2+a2*y2));
+        ui->tableWidget->item(2, 2)->setText(QString("%1").arg(b2+a2*y_2));
         ui->tableWidget->item(2, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(3, 2) != 0)
     {
-        ui->tableWidget->item(3, 2)->setText(QString("%1").arg(b3+a3*y3));
+        ui->tableWidget->item(3, 2)->setText(QString("%1").arg(b3+a3*y_3));
         ui->tableWidget->item(3, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(4, 2) != 0)
     {
-        ui->tableWidget->item(4, 2)->setText(QString("%1").arg(b4+a4*y4));
+        ui->tableWidget->item(4, 2)->setText(QString("%1").arg(b4+a4*y_4));
         ui->tableWidget->item(4, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(5, 2) != 0)
     {
-        ui->tableWidget->item(5, 2)->setText(QString("%1").arg(b5+a5*y5));
+        ui->tableWidget->item(5, 2)->setText(QString("%1").arg(b5+a5*y_5));
         ui->tableWidget->item(5, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(6, 2) != 0)
     {
-        ui->tableWidget->item(6, 2)->setText(QString("%1").arg(b6+a6*y6));
+        ui->tableWidget->item(6, 2)->setText(QString("%1").arg(b6+a6*y_6));
         ui->tableWidget->item(6, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(7, 2) != 0)
     {
-        ui->tableWidget->item(7, 2)->setText(QString("%1").arg(b7+a7*y7));
+        ui->tableWidget->item(7, 2)->setText(QString("%1").arg(b7+a7*y_7));
         ui->tableWidget->item(7, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(8, 2) != 0)
     {
-        ui->tableWidget->item(8, 2)->setText(QString("%1").arg(b8+a8*y8));
+        ui->tableWidget->item(8, 2)->setText(QString("%1").arg(b8+a8*y_8));
         ui->tableWidget->item(8, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(9, 2) != 0)
     {
-        ui->tableWidget->item(9, 2)->setText(QString("%1").arg(b9+a9*y9));
+        ui->tableWidget->item(9, 2)->setText(QString("%1").arg(b9+a9*y_9));
         ui->tableWidget->item(9, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(10, 2) != 0)
     {
-        ui->tableWidget->item(10, 2)->setText(QString("%1").arg(b10+a10*y10));
+        ui->tableWidget->item(10, 2)->setText(QString("%1").arg(b10+a10*y_10));
         ui->tableWidget->item(10, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (ui->tableWidget->item(11, 2) != 0)
     {
-        ui->tableWidget->item(11, 2)->setText(QString("%1").arg(b11+a11*y11));
+        ui->tableWidget->item(11, 2)->setText(QString("%1").arg(b11+a11*y_11));
         ui->tableWidget->item(11, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
    // Расчет значений цветов
 
-    int color = 235 - (y0 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
+    int color = 235 - (y_0 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color));
 
-    int color2 = 235 - (y1 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
+    int color2 = 235 - (y_1 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_4->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color2));
 
-    int color3 = 235 - (y2 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
+    int color3 = 235 - (y_2 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_5->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color3));
 
-    int color4 = 235 - (y3 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
+    int color4 = 235 - (y_3 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_6->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color4));
 
-    int color5 = 235 - (y4 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
+    int color5 = 235 - (y_4 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_7->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color5));
 
-    int color6 = 235 - (y5 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
+    int color6 = 235 - (y_5 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_8->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color6));
 
-    int color7 = 235 - (y6 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
+    int color7 = 235 - (y_6 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_9->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color7));
 
-    int color8 = 235 - (y7 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
+    int color8 = 235 - (y_7 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_10->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color8));
 
-    int color9 = 235 - (y8 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
+    int color9 = 235 - (y_8 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_11->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color9));
 
-    int color10 = 235 - (y9 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
+    int color10 = 235 - (y_9 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_12->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color10));
 
-    int color11 = 235 - (y10 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
+    int color11 = 235 - (y_10 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_13->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color11));
 
-    int color12 = 235 - (y11 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
+    int color12 = 235 - (y_11 - ui->lineEdit->text().toDouble()) / (140.0 - ui->lineEdit->text().toDouble()) * 220.0;
     ui->label_14->setStyleSheet(QString("background-color: hsl(%1, 100%, 50%)").arg(color12));
 
     mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1548\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color3));
@@ -738,14 +740,14 @@ void trend::on_timer_timeout()
 
 
 
-    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6\").text('%1 C');").arg(y2, 0, 'f', 1));
-    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-1\").text('%1 C');").arg(y7, 0, 'f', 1));
-    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-5\").text('%1 C');").arg(y6, 0, 'f', 1));
-    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-5-9\").text('%1 C');").arg(y8, 0, 'f', 1));
-    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-2\").text('%1 C');").arg(y9, 0, 'f', 1));
-    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-2-8-3\").text('%1 C');").arg(y9, 0, 'f', 1));
-    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-3\").text('%1 C');").arg(y9, 0, 'f', 1));
-    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-3-9\").text('%1 C');").arg(y11, 0, 'f', 1));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6\").text('%1 C');").arg(y_2, 0, 'f', 1));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-1\").text('%1 C');").arg(y_7, 0, 'f', 1));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-5\").text('%1 C');").arg(y_6, 0, 'f', 1));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-5-9\").text('%1 C');").arg(y_8, 0, 'f', 1));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-2\").text('%1 C');").arg(y_9, 0, 'f', 1));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-2-8-3\").text('%1 C');").arg(y_9, 0, 'f', 1));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-3\").text('%1 C');").arg(y_9, 0, 'f', 1));
+    mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-3-9\").text('%1 C');").arg(y_11, 0, 'f', 1));
 
 
 
@@ -780,14 +782,14 @@ void trend::on_timer_timeout()
 
 
 //Проверка условия окончания расчета
-    if (y2 > maxY2)
+    if (y_2 > maxY2)
            {
-               maxY2 = y2;
+               maxY2 = y_2;
            }
 
-           if (y2 < minY2)
+           if (y_2 < minY2)
            {
-               minY2 = y2;
+               minY2 = y_2;
            }
 
            count++;

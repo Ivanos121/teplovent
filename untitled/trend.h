@@ -47,6 +47,8 @@ private:
 
     double count;
 
+
+
 };
 
 #endif // TREND_H
