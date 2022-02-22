@@ -4,7 +4,7 @@
 #include <QFileInfo>
 #include <QIcon>
 
-double y_0,y_1,y_2,y_3,y_4,y_5,y_6,y_7,y_8,y_9,y_10,y_11;
+//double y_0,y_1,y_2,y_3,y_4,y_5,y_6,y_7,y_8,y_9,y_10,y_11;
 
 draw_line_new::draw_line_new(QWidget *parent) :
     QWidget(parent),
@@ -63,7 +63,7 @@ draw_line_new::draw_line_new(QWidget *parent) :
     p99.setColor(QPalette::AlternateBase, QColor(200, 255, 255));
     ui->tableWidget->setPalette(p99);
 
-    if (ui->tableWidget->item(0, 2) != 0)
+    /*if (ui->tableWidget->item(0, 2) != 0)
     {
         ui->tableWidget->item(0, 2)->setText(QString("%1").arg(QString::number(y_0,'f',3)));
         ui->tableWidget->item(0, 2)->setTextAlignment(Qt::AlignCenter);
@@ -133,7 +133,7 @@ draw_line_new::draw_line_new(QWidget *parent) :
     {
         ui->tableWidget->item(11, 2)->setText(QString("%1").arg(QString::number(y_11,'f',3)));
         ui->tableWidget->item(11, 2)->setTextAlignment(Qt::AlignCenter);
-    }
+    }*/
 }
 
 draw_line_new::~draw_line_new()
