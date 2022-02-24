@@ -931,7 +931,7 @@ void trend::on_timer_timeout()
             double shag6=shag5+h;
             double shag7=shag6+h;
             double shag8=shag7+h;
-            mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan901\").text('%1 C');").arg(max, 0, 'f', 1));
+            mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan901\").text('%1 °C');").arg(max, 0, 'f', 1));
             mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan865\").text('%1 C');").arg(miny, 0, 'f', 1));
             mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan869\").text('%1 C');").arg(shag1, 0, 'f', 1));
             mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan873\").text('%1 C');").arg(shag2, 0, 'f', 1));

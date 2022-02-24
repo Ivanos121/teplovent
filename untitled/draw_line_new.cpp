@@ -3,6 +3,7 @@
 
 #include <QFileInfo>
 #include <QIcon>
+#include <QString>
 
 //double y_0,y_1,y_2,y_3,y_4,y_5,y_6,y_7,y_8,y_9,y_10,y_11;
 
@@ -11,6 +12,11 @@ draw_line_new::draw_line_new(QWidget *parent) :
     ui(new Ui::draw_line_new)
 {
     ui->setupUi(this);  
+    //const char *s  = u8"\u00b0";
+    QString str = "°C";
+
+    ui->label->setText(str);
+
     ui->webEngineView->setUrl(QUrl::fromLocalFile(QFileInfo("../data/ax_var/ax_var.html").absoluteFilePath()));
     ui->webEngineView_2->setUrl(QUrl::fromLocalFile(QFileInfo("../data/grad_line/grad_line.html").absoluteFilePath()));
 
