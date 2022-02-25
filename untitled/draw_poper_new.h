@@ -15,7 +15,7 @@ public:
     explicit draw_poper_new(QWidget *parent = nullptr);
     ~draw_poper_new();
 
-private:
+public:
     Ui::draw_poper_new *ui;
 };
 

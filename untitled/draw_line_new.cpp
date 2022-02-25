@@ -12,10 +12,6 @@ draw_line_new::draw_line_new(QWidget *parent) :
     ui(new Ui::draw_line_new)
 {
     ui->setupUi(this);  
-    //const char *s  = u8"\u00b0";
-    QString str = "°C";
-
-    ui->label->setText(str);
 
     ui->webEngineView->setUrl(QUrl::fromLocalFile(QFileInfo("../data/ax_var/ax_var.html").absoluteFilePath()));
     ui->webEngineView_2->setUrl(QUrl::fromLocalFile(QFileInfo("../data/grad_line/grad_line.html").absoluteFilePath()));
@@ -51,95 +47,23 @@ draw_line_new::draw_line_new(QWidget *parent) :
         }
     }
 
-    ui->tableWidget->setItem(0,  1, new QTableWidgetItem("Станина"));
-    ui->tableWidget->setItem(1,  1, new QTableWidgetItem("Подшипниковый узел справа сзади"));
-    ui->tableWidget->setItem(2,  1, new QTableWidgetItem("Лобовая часть слева спереди"));
-    ui->tableWidget->setItem(3,  1, new QTableWidgetItem("Подшипниковый узел слева спереди"));
-    ui->tableWidget->setItem(4,  1, new QTableWidgetItem("Лобовая часть слева спереди"));
-    ui->tableWidget->setItem(5,  1, new QTableWidgetItem("Лобовая часть слева сзади"));
-    ui->tableWidget->setItem(6,  1, new QTableWidgetItem("Станина"));
-    ui->tableWidget->setItem(7,  1, new QTableWidgetItem("Лобовая часть справа спереди"));
-    ui->tableWidget->setItem(8,  1, new QTableWidgetItem("Лобовая часть справа сзади"));
-    ui->tableWidget->setItem(9,  1, new QTableWidgetItem("Магнитопровод статора"));
-    ui->tableWidget->setItem(10, 1, new QTableWidgetItem("Подшипниковый узел справа спереди"));
-    ui->tableWidget->setItem(11, 1, new QTableWidgetItem("Подшипниковый узел слева сзади"));
+    ui->tableWidget->setItem(0,  1, new QTableWidgetItem("Станина, °C"));
+    ui->tableWidget->setItem(1,  1, new QTableWidgetItem("Подшипниковый узел справа сзади, °C"));
+    ui->tableWidget->setItem(2,  1, new QTableWidgetItem("Лобовая часть слева спереди, °C"));
+    ui->tableWidget->setItem(3,  1, new QTableWidgetItem("Подшипниковый узел слева спереди, °C"));
+    ui->tableWidget->setItem(4,  1, new QTableWidgetItem("Лобовая часть слева спереди, °C"));
+    ui->tableWidget->setItem(5,  1, new QTableWidgetItem("Лобовая часть слева сзади, °C"));
+    ui->tableWidget->setItem(6,  1, new QTableWidgetItem("Станина, °C"));
+    ui->tableWidget->setItem(7,  1, new QTableWidgetItem("Лобовая часть справа спереди, °C"));
+    ui->tableWidget->setItem(8,  1, new QTableWidgetItem("Лобовая часть справа сзади, °C"));
+    ui->tableWidget->setItem(9,  1, new QTableWidgetItem("Магнитопровод статора, °C"));
+    ui->tableWidget->setItem(10, 1, new QTableWidgetItem("Подшипниковый узел справа спереди, °C"));
+    ui->tableWidget->setItem(11, 1, new QTableWidgetItem("Подшипниковый узел слева сзади, °C"));
 
     QPalette p99=ui->tableWidget->palette();
     p99.setColor(QPalette::Base, QColor(225, 255, 255));
     p99.setColor(QPalette::AlternateBase, QColor(200, 255, 255));
     ui->tableWidget->setPalette(p99);
-
-    /*if (ui->tableWidget->item(0, 2) != 0)
-    {
-        ui->tableWidget->item(0, 2)->setText(QString("%1").arg(QString::number(y_0,'f',3)));
-        ui->tableWidget->item(0, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (ui->tableWidget->item(1, 2) != 0)
-    {
-        ui->tableWidget->item(1, 2)->setText(QString("%1").arg(QString::number(y_1,'f',3)));
-        ui->tableWidget->item(1, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (ui->tableWidget->item(2, 2) != 0)
-    {
-        ui->tableWidget->item(2, 2)->setText(QString("%1").arg(QString::number(y_2,'f',3)));
-        ui->tableWidget->item(2, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (ui->tableWidget->item(3, 2) != 0)
-    {
-        ui->tableWidget->item(3, 2)->setText(QString("%1").arg(QString::number(y_3,'f',3)));
-        ui->tableWidget->item(3, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (ui->tableWidget->item(4, 2) != 0)
-    {
-        ui->tableWidget->item(4, 2)->setText(QString("%1").arg(QString::number(y_4,'f',3)));
-        ui->tableWidget->item(4, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (ui->tableWidget->item(5, 2) != 0)
-    {
-        ui->tableWidget->item(5, 2)->setText(QString("%1").arg(QString::number(y_5,'f',3)));
-        ui->tableWidget->item(5, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (ui->tableWidget->item(6, 2) != 0)
-    {
-        ui->tableWidget->item(6, 2)->setText(QString("%1").arg(QString::number(y_6,'f',3)));
-        ui->tableWidget->item(6, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (ui->tableWidget->item(7, 2) != 0)
-    {
-        ui->tableWidget->item(7, 2)->setText(QString("%1").arg(QString::number(y_7,'f',3)));
-        ui->tableWidget->item(7, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (ui->tableWidget->item(8, 2) != 0)
-    {
-        ui->tableWidget->item(8, 2)->setText(QString("%1").arg(QString::number(y_8,'f',3)));
-        ui->tableWidget->item(8, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (ui->tableWidget->item(9, 2) != 0)
-    {
-        ui->tableWidget->item(9, 2)->setText(QString("%1").arg(QString::number(y_9,'f',3)));
-        ui->tableWidget->item(9, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (ui->tableWidget->item(10, 2) != 0)
-    {
-        ui->tableWidget->item(10, 2)->setText(QString("%1").arg(QString::number(y_10,'f',3)));
-        ui->tableWidget->item(10, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (ui->tableWidget->item(11, 2) != 0)
-    {
-        ui->tableWidget->item(11, 2)->setText(QString("%1").arg(QString::number(y_11,'f',3)));
-        ui->tableWidget->item(11, 2)->setTextAlignment(Qt::AlignCenter);
-    }*/
 }
 
 draw_line_new::~draw_line_new()
