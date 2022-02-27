@@ -11,11 +11,11 @@ draw_poper_new::draw_poper_new(QWidget *parent) :
     ui(new Ui::draw_poper_new)
 {
     ui->setupUi(this);
+    ui->webEngineView_2->hide();
+    ui->webEngineView->setUrl(QUrl::fromLocalFile(QFileInfo("../data/rad_var/rad_var_2.html").absoluteFilePath()));
+    //ui->webEngineView_2->setUrl(QUrl::fromLocalFile(QFileInfo("../data/grad_line/grad_line_2.html").absoluteFilePath()));
 
-    ui->webEngineView->setUrl(QUrl::fromLocalFile(QFileInfo("../data/rad_var/rad_var.html").absoluteFilePath()));
-    ui->webEngineView_2->setUrl(QUrl::fromLocalFile(QFileInfo("../data/grad_line/grad_line.html").absoluteFilePath()));
-
-    ui->tableWidget->setRowCount(12);
+    ui->tableWidget->setRowCount(17);
     ui->tableWidget->setColumnCount(3);
     QStringList name;
     name << " № " << "Сигнал" << "Величина";
@@ -37,7 +37,7 @@ draw_poper_new::draw_poper_new(QWidget *parent) :
         }
     }
 
-    for (int i=0; i<12; i++)
+    for (int i=0; i<17; i++)
     {
         if (ui->tableWidget->item(i, 0) != 0)
         {
@@ -50,14 +50,19 @@ draw_poper_new::draw_poper_new(QWidget *parent) :
     ui->tableWidget->setItem(1,  1, new QTableWidgetItem("Подшипниковый узел справа сзади, °C"));
     ui->tableWidget->setItem(2,  1, new QTableWidgetItem("Лобовая часть слева спереди, °C"));
     ui->tableWidget->setItem(3,  1, new QTableWidgetItem("Подшипниковый узел слева спереди, °C"));
-    ui->tableWidget->setItem(4,  1, new QTableWidgetItem("Лобовая часть слева спереди, °C"));
-    ui->tableWidget->setItem(5,  1, new QTableWidgetItem("Лобовая часть слева сзади, °C"));
-    ui->tableWidget->setItem(6,  1, new QTableWidgetItem("Станина, °C"));
-    ui->tableWidget->setItem(7,  1, new QTableWidgetItem("Лобовая часть справа спереди, °C"));
-    ui->tableWidget->setItem(8,  1, new QTableWidgetItem("Лобовая часть справа сзади, °C"));
-    ui->tableWidget->setItem(9,  1, new QTableWidgetItem("Магнитопровод статора, °C"));
-    ui->tableWidget->setItem(10, 1, new QTableWidgetItem("Подшипниковый узел справа спереди, °C"));
-    ui->tableWidget->setItem(11, 1, new QTableWidgetItem("Подшипниковый узел слева сзади, °C"));
+    ui->tableWidget->setItem(4,  1, new QTableWidgetItem("Лобовая часть слева сзади, °C"));
+    ui->tableWidget->setItem(5,  1, new QTableWidgetItem("Станина, °C"));
+    ui->tableWidget->setItem(6,  1, new QTableWidgetItem("Лобовая часть справа спереди, °C"));
+    ui->tableWidget->setItem(7,  1, new QTableWidgetItem("Лобовая часть справа сзади, °C"));
+    ui->tableWidget->setItem(8,  1, new QTableWidgetItem("Магнитопровод статора, °C"));
+    ui->tableWidget->setItem(9,  1, new QTableWidgetItem("Подшипниковый узел справа спереди, °C"));
+    ui->tableWidget->setItem(10, 1, new QTableWidgetItem("Подшипниковый узел слева сзади, °C"));
+    ui->tableWidget->setItem(11, 1, new QTableWidgetItem("Ротор сверху, °C"));
+    ui->tableWidget->setItem(12, 1, new QTableWidgetItem("Ротор снизу, °C"));
+    ui->tableWidget->setItem(13, 1, new QTableWidgetItem("Станина слева, °C"));
+    ui->tableWidget->setItem(14, 1, new QTableWidgetItem("Станина справа, °C"));
+    ui->tableWidget->setItem(15, 1, new QTableWidgetItem("Вал, °C"));
+    ui->tableWidget->setItem(16, 1, new QTableWidgetItem("Клеммная коробка, °C"));
 
     QPalette p99=ui->tableWidget->palette();
     p99.setColor(QPalette::Base, QColor(225, 255, 255));

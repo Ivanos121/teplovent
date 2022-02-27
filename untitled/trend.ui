@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1811</width>
-    <height>799</height>
+    <height>828</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,9 +16,6 @@
   <layout class="QHBoxLayout" name="horizontalLayout">
    <item>
     <layout class="QVBoxLayout" name="verticalLayout_2">
-     <item>
-      <widget class="QSvgWidget" name="svgWidget2" native="true"/>
-     </item>
      <item>
       <widget class="QLabel" name="label">
        <property name="text">
@@ -57,7 +54,7 @@
      <item>
       <widget class="QLabel" name="label_8">
        <property name="text">
-        <string>Лобовая часть слева сзади</string>
+        <string>Станина</string>
        </property>
       </widget>
      </item>
@@ -99,17 +96,42 @@
      <item>
       <widget class="QLabel" name="label_14">
        <property name="text">
-        <string>TextLabel</string>
+        <string>Ротор сверху</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QSlider" name="horizontalSlider">
-       <property name="maximum">
-        <number>100</number>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Ротор снизу</string>
        </property>
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_17">
+       <property name="text">
+        <string>Станина слева</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_18">
+       <property name="text">
+        <string>Станина справа</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_19">
+       <property name="text">
+        <string>Вал</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_20">
+       <property name="text">
+        <string>Клеммная коробка</string>
        </property>
       </widget>
      </item>
@@ -169,7 +191,7 @@
         <x>0</x>
         <y>0</y>
         <width>498</width>
-        <height>779</height>
+        <height>808</height>
        </rect>
       </property>
       <widget class="QGroupBox" name="groupBox">
@@ -178,7 +200,7 @@
          <x>11</x>
          <y>579</y>
          <width>479</width>
-         <height>191</height>
+         <height>221</height>
         </rect>
        </property>
        <property name="title">
@@ -187,11 +209,17 @@
        <widget class="QPushButton" name="pushButton">
         <property name="geometry">
          <rect>
-          <x>250</x>
-          <y>70</y>
-          <width>213</width>
+          <x>21</x>
+          <y>177</y>
+          <width>80</width>
           <height>26</height>
          </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
         </property>
         <property name="text">
          <string>Запуск</string>
@@ -200,53 +228,42 @@
        <widget class="QLineEdit" name="lineEdit">
         <property name="geometry">
          <rect>
-          <x>250</x>
-          <y>132</y>
-          <width>213</width>
+          <x>212</x>
+          <y>90</y>
+          <width>80</width>
           <height>26</height>
          </rect>
         </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
         <property name="text">
          <string>20</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
         </property>
        </widget>
        <widget class="QPushButton" name="pushButton_2">
         <property name="geometry">
          <rect>
-          <x>250</x>
-          <y>100</y>
-          <width>213</width>
+          <x>212</x>
+          <y>177</y>
+          <width>80</width>
           <height>26</height>
          </rect>
         </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
         <property name="text">
          <string>Стоп</string>
-        </property>
-       </widget>
-       <widget class="QRadioButton" name="radioButton_2">
-        <property name="geometry">
-         <rect>
-          <x>21</x>
-          <y>76</y>
-          <width>68</width>
-          <height>24</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Расчет</string>
-        </property>
-       </widget>
-       <widget class="QRadioButton" name="radioButton">
-        <property name="geometry">
-         <rect>
-          <x>21</x>
-          <y>46</y>
-          <width>110</width>
-          <height>24</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Эксперимент</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_15">
@@ -261,6 +278,73 @@
         <property name="text">
          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Выбор режимов&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="geometry">
+         <rect>
+          <x>212</x>
+          <y>120</y>
+          <width>80</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Обзор</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>21</x>
+          <y>56</y>
+          <width>187</width>
+          <height>86</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QRadioButton" name="radioButton">
+           <property name="text">
+            <string>Эксперимент</string>
+           </property>
+           <attribute name="buttonGroup">
+            <string notr="true">buttonGroup</string>
+           </attribute>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="radioButton_2">
+           <property name="maximumSize">
+            <size>
+             <width>145</width>
+             <height>24</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Внутрення модель</string>
+           </property>
+           <attribute name="buttonGroup">
+            <string notr="true">buttonGroup</string>
+           </attribute>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="radioButton_3">
+           <property name="text">
+            <string>Чтение данных из файла</string>
+           </property>
+           <attribute name="buttonGroup">
+            <string notr="true">buttonGroup</string>
+           </attribute>
+          </widget>
+         </item>
+        </layout>
        </widget>
       </widget>
       <widget class="QGroupBox" name="groupBox_2">
@@ -357,12 +441,6 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>QSvgWidget</class>
-   <extends>QWidget</extends>
-   <header location="global">qsvgwidget.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
    <class>Plot</class>
    <extends>QWidget</extends>
    <header>plot.h</header>
@@ -371,4 +449,7 @@
  </customwidgets>
  <resources/>
  <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+ </buttongroups>
 </ui>
