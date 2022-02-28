@@ -11,6 +11,7 @@
 #include "ui_draw_poper.h"
 #include "ui_draw_line_new.h"
 #include "ui_draw_poper_new.h"
+#include "ui_vent_var.h"
 
 int position_2;
 double t_max;
@@ -1049,8 +1050,15 @@ void trend::on_timer_timeout()
     mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1610\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_15));
     mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path995\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_15));
     mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1616\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_15));
-
     mw->ui->widget_8->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1488\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_8));
+    mw->ui->widget_8->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1088\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_15));
+    mw->ui->widget_8->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1086\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_16));
+    mw->ui->widget_8->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1490\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_12));
+
+    mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1285\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_8));
+
+
+
 
     mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6\").text('%1 °C');").arg(y_2, 0, 'f', 1));
     mw->ui->widget_7->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan2545-6-5\").text('%1 °C');").arg(y_4, 0, 'f', 1));
@@ -1072,6 +1080,14 @@ void trend::on_timer_timeout()
     mw->ui->widget_8->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan3714-2\").text('%1 °C');").arg(y_8, 0, 'f', 1));
     mw->ui->widget_8->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan3714-2-7\").text('%1 °C');").arg(y_8, 0, 'f', 1));
     mw->ui->widget_8->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan3714\").text('%1 °C');").arg(y_15, 0, 'f', 1));
+    mw->ui->widget_8->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan3714-11-7\").text('%1 °C');").arg(y_13, 0, 'f', 1));
+    mw->ui->widget_8->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan3714-1-9\").text('%1 °C');").arg(y_14, 0, 'f', 1));
+    mw->ui->widget_8->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan3714-2-0\").text('%1 °C');").arg(y_16, 0, 'f', 1));
+    mw->ui->widget_8->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan3714-11\").text('%1 °C');").arg(y_11, 0, 'f', 1));
+
+    mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan1010\").text('%1 °C');").arg(y_12, 0, 'f', 1));
+
+
 
 //    ui->tableWidget->setItem(0,  1, new QTableWidgetItem("Станина, °C"));
 //    ui->tableWidget->setItem(1,  1, new QTableWidgetItem("Подшипниковый узел справа сзади, °C"));
@@ -1203,8 +1219,8 @@ void trend::on_timer_timeout()
             double shag7=shag6+h;
             double shag8=shag7+h;
 
-           // mw->ui->widget_8->ui->webEngineView_2->show();
-           // mw->ui->widget_8->ui->webEngineView_2->setUrl(QUrl::fromLocalFile(QFileInfo("../data/grad_line/grad_line_2.html").absoluteFilePath()));
+            mw->ui->widget_8->ui->webEngineView_2->show();
+            mw->ui->widget_8->ui->webEngineView_2->setUrl(QUrl::fromLocalFile(QFileInfo("../data/grad_line/grad_line_2.html").absoluteFilePath()));
             mw->ui->widget_8->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan901\").text('%1');").arg(max, 0, 'f', 1));
             mw->ui->widget_8->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan865\").text('%1');").arg(miny, 0, 'f', 1));
             mw->ui->widget_8->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan869\").text('%1');").arg(shag1, 0, 'f', 1));
@@ -1216,7 +1232,7 @@ void trend::on_timer_timeout()
             mw->ui->widget_8->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan893\").text('%1');").arg(shag7, 0, 'f', 1));
             mw->ui->widget_8->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan897\").text('%1');").arg(shag8, 0, 'f', 1));
 
-           // mw->ui->widget_7->ui->webEngineView_2->show();
+            mw->ui->widget_7->ui->webEngineView_2->show();
             mw->ui->widget_7->ui->webEngineView_2->setUrl(QUrl::fromLocalFile(QFileInfo("../data/grad_line/grad_line_2.html").absoluteFilePath()));
             mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan901\").text('%1');").arg(max, 0, 'f', 1));
             mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan865\").text('%1');").arg(miny, 0, 'f', 1));
@@ -1228,6 +1244,7 @@ void trend::on_timer_timeout()
             mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan889\").text('%1');").arg(shag6, 0, 'f', 1));
             mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan893\").text('%1');").arg(shag7, 0, 'f', 1));
             mw->ui->widget_7->ui->webEngineView_2->page()->runJavaScript(QString("$(\"#tspan897\").text('%1');").arg(shag8, 0, 'f', 1));
+
 
             QMessageBox::information(this, tr("Сообщение"), tr("Расчет окончен!"));
        }

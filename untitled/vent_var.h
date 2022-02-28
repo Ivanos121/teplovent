@@ -15,7 +15,7 @@ public:
     explicit vent_var(QWidget *parent = nullptr);
     ~vent_var();
 
-private:
+public:
     Ui::vent_var *ui;
 };
 

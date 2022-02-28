@@ -13,10 +13,9 @@ draw_line_new::draw_line_new(QWidget *parent) :
 {
     ui->setupUi(this);  
 
-//    ui->webEngineView_2->show();
-//    ui->webEngineView_2->hide();
+    ui->webEngineView_2->hide();
     ui->webEngineView->setUrl(QUrl::fromLocalFile(QFileInfo("../data/ax_var/ax_var_2.html").absoluteFilePath()));
-    ui->webEngineView_2->setUrl(QUrl::fromLocalFile(QFileInfo("../data/grad_line/grad_line_2.html").absoluteFilePath()));
+   // ui->webEngineView_2->setUrl(QUrl::fromLocalFile(QFileInfo("../data/grad_line/grad_line_2.html").absoluteFilePath()));
 
     ui->tableWidget->setRowCount(17);
     ui->tableWidget->setColumnCount(3);
