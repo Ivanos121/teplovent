@@ -9,8 +9,9 @@ vent_var::vent_var(QWidget *parent) :
     ui(new Ui::vent_var)
 {
     ui->setupUi(this);
+    ui->webEngineView_2->hide();
     ui->webEngineView->setUrl(QUrl::fromLocalFile(QFileInfo("../data/vent_var/vent_var.html").absoluteFilePath()));
-    ui->webEngineView_2->setUrl(QUrl::fromLocalFile(QFileInfo("../data/grad_line/grad_line.html").absoluteFilePath()));
+    //ui->webEngineView_2->setUrl(QUrl::fromLocalFile(QFileInfo("../data/grad_line/grad_line_2.html").absoluteFilePath()));
 
     ui->tableWidget->setRowCount(12);
     ui->tableWidget->setColumnCount(3);
