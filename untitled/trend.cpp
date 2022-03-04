@@ -547,99 +547,47 @@ void trend::on_timer_timeout()
 
     if (mw->ui->widget_8->ui->tableWidget->item(1, 2) != 0)
     {
-        mw->ui->widget_8->ui->tableWidget->item(1, 2)->setText(QString("%1").arg(QString::number(y_11,'f',1)));
+        mw->ui->widget_8->ui->tableWidget->item(1, 2)->setText(QString("%1").arg(QString::number(y_12,'f',1)));
         mw->ui->widget_8->ui->tableWidget->item(1, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (mw->ui->widget_8->ui->tableWidget->item(2, 2) != 0)
     {
-        mw->ui->widget_8->ui->tableWidget->item(2, 2)->setText(QString("%1").arg(QString::number(y_11,'f',1)));
+        mw->ui->widget_8->ui->tableWidget->item(2, 2)->setText(QString("%1").arg(QString::number(y_13,'f',1)));
         mw->ui->widget_8->ui->tableWidget->item(2, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (mw->ui->widget_8->ui->tableWidget->item(3, 2) != 0)
     {
-        mw->ui->widget_8->ui->tableWidget->item(3, 2)->setText(QString("%1").arg(QString::number(y_11,'f',1)));
+        mw->ui->widget_8->ui->tableWidget->item(3, 2)->setText(QString("%1").arg(QString::number(y_14,'f',1)));
         mw->ui->widget_8->ui->tableWidget->item(3, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (mw->ui->widget_8->ui->tableWidget->item(4, 2) != 0)
     {
-        mw->ui->widget_8->ui->tableWidget->item(4, 2)->setText(QString("%1").arg(QString::number(y_11,'f',1)));
+        mw->ui->widget_8->ui->tableWidget->item(4, 2)->setText(QString("%1").arg(QString::number(y_15,'f',1)));
         mw->ui->widget_8->ui->tableWidget->item(4, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (mw->ui->widget_8->ui->tableWidget->item(5, 2) != 0)
     {
-        mw->ui->widget_8->ui->tableWidget->item(5, 2)->setText(QString("%1").arg(QString::number(y_11,'f',1)));
+        mw->ui->widget_8->ui->tableWidget->item(5, 2)->setText(QString("%1").arg(QString::number(y_16,'f',1)));
         mw->ui->widget_8->ui->tableWidget->item(5, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (mw->ui->widget_8->ui->tableWidget->item(6, 2) != 0)
     {
-        mw->ui->widget_8->ui->tableWidget->item(6, 2)->setText(QString("%1").arg(QString::number(y_11,'f',1)));
+        mw->ui->widget_8->ui->tableWidget->item(6, 2)->setText(QString("%1").arg(QString::number(y_8,'f',1)));
         mw->ui->widget_8->ui->tableWidget->item(6, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
     if (mw->ui->widget_8->ui->tableWidget->item(7, 2) != 0)
     {
-        mw->ui->widget_8->ui->tableWidget->item(7, 2)->setText(QString("%1").arg(QString::number(y_11,'f',1)));
+        mw->ui->widget_8->ui->tableWidget->item(7, 2)->setText(QString("%1").arg(QString::number(y_8,'f',1)));
         mw->ui->widget_8->ui->tableWidget->item(7, 2)->setTextAlignment(Qt::AlignCenter);
     }
 
-    if (mw->ui->widget_8->ui->tableWidget->item(8, 2) != 0)
-    {
-        mw->ui->widget_8->ui->tableWidget->item(8, 2)->setText(QString("%1").arg(QString::number(y_11,'f',1)));
-        mw->ui->widget_8->ui->tableWidget->item(8, 2)->setTextAlignment(Qt::AlignCenter);
-    }
 
-    if (mw->ui->widget_8->ui->tableWidget->item(9, 2) != 0)
-    {
-        mw->ui->widget_8->ui->tableWidget->item(9, 2)->setText(QString("%1").arg(QString::number(y_11,'f',1)));
-        mw->ui->widget_8->ui->tableWidget->item(9, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (mw->ui->widget_8->ui->tableWidget->item(10, 2) != 0)
-    {
-        mw->ui->widget_8->ui->tableWidget->item(10, 2)->setText(QString("%1").arg(QString::number(y_11,'f',1)));
-        mw->ui->widget_8->ui->tableWidget->item(10, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (mw->ui->widget_8->ui->tableWidget->item(11, 2) != 0)
-    {
-        mw->ui->widget_8->ui->tableWidget->item(11, 2)->setText(QString("%1").arg(QString::number(y_11,'f',1)));
-        mw->ui->widget_8->ui->tableWidget->item(11, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (mw->ui->widget_8->ui->tableWidget->item(12, 2) != 0)
-    {
-        mw->ui->widget_8->ui->tableWidget->item(12, 2)->setText(QString("%1").arg(QString::number(y_11,'f',1)));
-        mw->ui->widget_8->ui->tableWidget->item(12, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (mw->ui->widget_8->ui->tableWidget->item(13, 2) != 0)
-    {
-        mw->ui->widget_8->ui->tableWidget->item(13, 2)->setText(QString("%1").arg(QString::number(y_13,'f',1)));
-        mw->ui->widget_8->ui->tableWidget->item(13, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (mw->ui->widget_8->ui->tableWidget->item(14, 2) != 0)
-    {
-        mw->ui->widget_8->ui->tableWidget->item(14, 2)->setText(QString("%1").arg(QString::number(y_14,'f',1)));
-        mw->ui->widget_8->ui->tableWidget->item(14, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (mw->ui->widget_8->ui->tableWidget->item(15, 2) != 0)
-    {
-        mw->ui->widget_8->ui->tableWidget->item(15, 2)->setText(QString("%1").arg(QString::number(y_15,'f',1)));
-        mw->ui->widget_8->ui->tableWidget->item(15, 2)->setTextAlignment(Qt::AlignCenter);
-    }
-
-    if (mw->ui->widget_8->ui->tableWidget->item(16, 2) != 0)
-    {
-        mw->ui->widget_8->ui->tableWidget->item(16, 2)->setText(QString("%1").arg(QString::number(y_16,'f',1)));
-        mw->ui->widget_8->ui->tableWidget->item(16, 2)->setTextAlignment(Qt::AlignCenter);
-    }
 
     a0=ui->tableWidget_2->item(0,4)->text().toDouble();
     a1=ui->tableWidget_2->item(1,4)->text().toDouble();
@@ -1054,9 +1002,10 @@ void trend::on_timer_timeout()
     mw->ui->widget_8->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1088\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_15));
     mw->ui->widget_8->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1086\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_16));
     mw->ui->widget_8->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1490\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_12));
+
     mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1285\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_8));
     mw->ui->widget_8->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1492\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_15));
-    mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1289\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_10));
+    mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1289\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_4));
     mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1277\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_11));
     mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1291\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_11));
     mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1159\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_15));
@@ -1079,7 +1028,9 @@ void trend::on_timer_timeout()
     mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1279\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_12));
     mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1297\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_12));
     mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1167\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_13));
-    mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1169\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_14));
+    mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1293\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_11));
+    mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1299\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_12));
+    mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#path1169\").attr(\"style\", \"fill: hsl(%1, 100%, 50%);stroke-dasharray:0, 8.26299195;stroke-width:.75118;stroke:#000\");").arg(color_13));
 
 
 
@@ -1110,8 +1061,8 @@ void trend::on_timer_timeout()
     mw->ui->widget_8->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan3714-11\").text('%1 °C');").arg(y_11, 0, 'f', 1));
     mw->ui->widget_8->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan3714-1\").text('%1 °C');").arg(y_12, 0, 'f', 1));
 
-    mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan1010\").text('%1 °C');").arg(y_12, 0, 'f', 1));
-    mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan1010-8\").text('%1 °C');").arg(y_10, 0, 'f', 1));
+    mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan1010\").text('%1 °C');").arg(y_8, 0, 'f', 1));
+    mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan1010-8\").text('%1 °C');").arg(y_4, 0, 'f', 1));
     mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan1010-0\").text('%1 °C');").arg(y_11, 0, 'f', 1));
     mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan1010-0-1\").text('%1 °C');").arg(y_8, 0, 'f', 1));
     mw->ui->widget_9->ui->webEngineView->page()->runJavaScript(QString("$(\"#tspan1010-8-5\").text('%1 °C');").arg(y_7, 0, 'f', 1));
@@ -1119,17 +1070,17 @@ void trend::on_timer_timeout()
 
 
 
-//    ui->tableWidget->setItem(0,  1, new QTableWidgetItem("Станина, °C"));
-//    ui->tableWidget->setItem(1,  1, new QTableWidgetItem("Подшипниковый узел справа сзади, °C"));
-//    ui->tableWidget->setItem(2,  1, new QTableWidgetItem("Лобовая часть слева спереди, °C"));
-//    ui->tableWidget->setItem(3,  1, new QTableWidgetItem("Подшипниковый узел слева спереди, °C"));
-//    ui->tableWidget->setItem(4,  1, new QTableWidgetItem("Лобовая часть слева сзади, °C"));
-//    ui->tableWidget->setItem(5,  1, new QTableWidgetItem("Станина, °C"));
-//    ui->tableWidget->setItem(6,  1, new QTableWidgetItem("Лобовая часть справа спереди, °C"));
-//    ui->tableWidget->setItem(7,  1, new QTableWidgetItem("Лобовая часть справа сзади, °C"));
-//    ui->tableWidget->setItem(8,  1, new QTableWidgetItem("Магнитопровод статора, °C"));
-//    ui->tableWidget->setItem(9,  1, new QTableWidgetItem("Подшипниковый узел справа спереди, °C"));
-//    ui->tableWidget->setItem(10, 1, new QTableWidgetItem("Подшипниковый узел слева сзади, °C"));
+//    y_0=20*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//станина
+//    y_1=54*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//Подшипниковый узел справа сзади
+//    y_2=120*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть слева спереди
+//    y_3=56*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Подшипниковый узел слева спереди
+//    y_4=120*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть слева сзади
+//    y_5=90*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//станина
+//    y_6=120*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть справа спереди
+//    y_7=120*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Лобовая часть справа сзади
+//    y_8=90*(1-exp(-t/25))+ui->lineEdit->text().toDouble();//Магнитопровод статора
+//    y_9=60*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//Подшипниковый узел справа спереди
+//    y_10=56*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//Подшипниковый узел слева сзади
 //    y_11=80*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//Ротор сверху
 //    y_12=80*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//Ротор снизу
 //    y_13=40*(1-exp(-t/20))+ui->lineEdit->text().toDouble();//Станина слева
