@@ -408,6 +408,8 @@ void trend::on_pushButton_clicked()
     timer.start(1000);
 
     t += 10.0;
+
+    mw->ui->widget_9->ui->verticalSlider->setValue(50);
 }
 
 

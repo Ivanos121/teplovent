@@ -17,6 +17,9 @@ public:
 
 public:
     Ui::vent_var *ui;
+    void on_speed(int value);
+
+    double speed;
 };
 
 #endif // VENT_VAR_H

@@ -9,6 +9,8 @@ vent_var::vent_var(QWidget *parent) :
     ui(new Ui::vent_var)
 {
     ui->setupUi(this);
+    connect(ui->verticalSlider, &QSlider::valueChanged, this, &vent_var::on_speed);
+
     ui->webEngineView_2->hide();
     ui->webEngineView->setUrl(QUrl::fromLocalFile(QFileInfo("../data/vent_var/vent_var.html").absoluteFilePath()));
     //ui->webEngineView_2->setUrl(QUrl::fromLocalFile(QFileInfo("../data/grad_line/grad_line_2.html").absoluteFilePath()));
@@ -115,4 +117,14 @@ vent_var::vent_var(QWidget *parent) :
 vent_var::~vent_var()
 {
     delete ui;
+}
+
+void vent_var::on_speed(int value)
+{
+   // ui->label_3->setText(QString::number(0));
+    //ui->verticalSlider->setRange(0, 99);
+    //ui->verticalSlider->setValue(value);
+
+    speed = value / 99.0 * 157.0;
+    ui->label_3->setText(QString::number(speed));
 }

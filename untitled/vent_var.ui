@@ -24,6 +24,13 @@
     </widget>
    </item>
    <item>
+    <widget class="QSlider" name="verticalSlider">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
     <widget class="QWebEngineView" name="webEngineView_2">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
@@ -87,6 +94,13 @@
        <widget class="QTableWidget" name="tableWidget_2">
         <property name="alternatingRowColors">
          <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>0</string>
         </property>
        </widget>
       </item>
