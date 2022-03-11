@@ -19,6 +19,7 @@ double t_max;
 double y_0,y_1,y_2,y_3,y_4,y_5,y_6,y_7,y_8,y_9,y_10,y_11,y_12,y_13,y_14,y_15,y_16;
 double a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16;
 double b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15,b16;
+double w_w,w_0,M_M,M_k,s_s,s_k,R1,R_2;
 
 
 trend::trend(QWidget *parent) :
@@ -410,6 +411,9 @@ void trend::on_pushButton_clicked()
     t += 10.0;
 
     mw->ui->widget_9->ui->verticalSlider->setValue(50);
+    mw->ui->widget_9->ui->verticalSlider_2->setValue(20);
+
+    //ui->label_4->setText(QString("%1 moment").arg(moment, 0, 'f', 1));
 }
 
 
@@ -437,6 +441,15 @@ void trend::on_timer_timeout()
     y_14=40*(1-exp(-t/20))+ui->lineEdit->text().toDouble();
     y_15=60*(1-exp(-t/20))+ui->lineEdit->text().toDouble();
     y_16=50*(1-exp(-t/20))+ui->lineEdit->text().toDouble();
+
+    w_0=314;
+    w_w=147;
+    M_k=44;
+    s_k=0.1;
+    s_s=(w_0-w_w)/w_0;
+    M_M=M_k*2/(s_s/s_k+s_k/s_s);
+
+
 
     if (mw->ui->widget_7->ui->tableWidget->item(0, 2) != 0)
     {

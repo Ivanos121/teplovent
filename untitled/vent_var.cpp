@@ -10,6 +10,7 @@ vent_var::vent_var(QWidget *parent) :
 {
     ui->setupUi(this);
     connect(ui->verticalSlider, &QSlider::valueChanged, this, &vent_var::on_speed);
+    connect(ui->verticalSlider_2, &QSlider::valueChanged, this, &vent_var::on_moment);
 
     ui->webEngineView_2->hide();
     ui->webEngineView->setUrl(QUrl::fromLocalFile(QFileInfo("../data/vent_var/vent_var.html").absoluteFilePath()));
@@ -126,5 +127,18 @@ void vent_var::on_speed(int value)
     //ui->verticalSlider->setValue(value);
 
     speed = value / 99.0 * 157.0;
-    ui->label_3->setText(QString::number(speed));
+   // ui->label_3->setText(QString::number(speed));
+    ui->label_3->setText(QString("%1 speed").arg(speed, 0, 'f', 1));
+
+}
+
+void vent_var::on_moment(int value)
+{
+   // ui->label_3->setText(QString::number(0));
+    //ui->verticalSlider->setRange(0, 99);
+    //ui->verticalSlider->setValue(value);
+
+    moment = value / 99.0 * 30.0;
+    ui->label_4->setText(QString::number(moment));
+    ui->label_4->setText(QString("%1 moment").arg(moment, 0, 'f', 1));
 }

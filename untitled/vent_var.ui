@@ -31,6 +31,13 @@
     </widget>
    </item>
    <item>
+    <widget class="QSlider" name="verticalSlider_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
     <widget class="QWebEngineView" name="webEngineView_2">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
@@ -100,7 +107,14 @@
       <item>
        <widget class="QLabel" name="label_3">
         <property name="text">
-         <string>0</string>
+         <string>0 speed</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>0 moment</string>
         </property>
        </widget>
       </item>
