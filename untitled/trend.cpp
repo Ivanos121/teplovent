@@ -41,7 +41,7 @@ trend::trend(QWidget *parent) :
     ui->plot->margin_left = 100;
     ui->plot->reset();
 
-    connect(&timer, &QTimer::timeout, this, &trend::on_timer_timeout);
+    connect(&timer, &QTimer::timeout, this, &trend::on_timerTimeout);
 
     //Первоначальная цветовая настройка лейблов
     ui->label->setStyleSheet(QString("background-color: hsl(235, 100%, 30%)"));
@@ -422,7 +422,7 @@ void trend::on_pushButton_2_clicked()
     timer.stop();
 }
 
-void trend::on_timer_timeout()
+void trend::on_timerTimeout()
 {
     y_0=20*(1-exp(-t/20))+ui->lineEdit->text().toDouble();
     y_1=54*(1-exp(-t/20))+ui->lineEdit->text().toDouble();

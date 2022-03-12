@@ -6,6 +6,8 @@
 #include "ui_draw_poper_new.h"
 #include "ui_draw_line_new.h"
 #include "ui_vent_var.h"
+#include "ui_vent_tract.h"
+#include "ui_draw_vent_tract.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
