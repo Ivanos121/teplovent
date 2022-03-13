@@ -58,7 +58,7 @@
         <item row="0" column="0">
          <widget class="QTabWidget" name="tabWidget_2">
           <property name="currentIndex">
-           <number>4</number>
+           <number>3</number>
           </property>
           <widget class="QWidget" name="tab_5">
            <attribute name="title">
@@ -87,16 +87,6 @@
            <layout class="QGridLayout" name="gridLayout_10">
             <item row="0" column="0">
              <widget class="draw_poper_new" name="widget_8" native="true"/>
-            </item>
-           </layout>
-          </widget>
-          <widget class="QWidget" name="tab_10">
-           <attribute name="title">
-            <string>Вентиляция</string>
-           </attribute>
-           <layout class="QGridLayout" name="gridLayout_11">
-            <item row="0" column="0">
-             <widget class="vent_var" name="widget_9" native="true"/>
             </item>
            </layout>
           </widget>
@@ -230,12 +220,6 @@
    <class>draw_poper_new</class>
    <extends>QWidget</extends>
    <header>draw_poper_new.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>vent_var</class>
-   <extends>QWidget</extends>
-   <header>vent_var.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>

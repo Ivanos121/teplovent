@@ -15,8 +15,13 @@ public:
     explicit Vent_tract(QWidget *parent = nullptr);
     ~Vent_tract();
 
-private:
+public:
     Ui::Vent_tract *ui;
+    void on_speed(int value);
+    void on_moment(int value);
+
+    double speed;
+    double moment;
 };
 
 #endif // VENT_TRACT_H
