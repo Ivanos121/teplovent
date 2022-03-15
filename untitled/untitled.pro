@@ -20,6 +20,7 @@ SOURCES += \
     teplschem.cpp \
     trend.cpp \
     vent_diagram.cpp \
+    vent_izm.cpp \
     vent_tract.cpp \
     vent_var.cpp \
     vvoddannie.cpp
@@ -36,6 +37,7 @@ HEADERS += \
     teplschem.h \
     trend.h \
     vent_diagram.h \
+    vent_izm.h \
     vent_tract.h \
     vent_var.h \
     vvoddannie.h
@@ -50,6 +52,7 @@ FORMS += \
     teplschem.ui \
     trend.ui \
     vent_diagram.ui \
+    vent_izm.ui \
     vent_tract.ui \
     vent_var.ui \
     vvoddannie.ui

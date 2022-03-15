@@ -100,6 +100,16 @@
               <property name="currentIndex">
                <number>0</number>
               </property>
+              <widget class="QWidget" name="tab_10">
+               <attribute name="title">
+                <string>Распределение воздушного потока</string>
+               </attribute>
+               <layout class="QGridLayout" name="gridLayout_11">
+                <item row="0" column="0">
+                 <widget class="vent_izm" name="widget_9" native="true"/>
+                </item>
+               </layout>
+              </widget>
               <widget class="QWidget" name="tab_7">
                <attribute name="title">
                 <string>Распределение температур</string>
@@ -238,6 +248,12 @@
    <class>vent_diagram</class>
    <extends>QWidget</extends>
    <header>vent_diagram.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>vent_izm</class>
+   <extends>QWidget</extends>
+   <header>vent_izm.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
